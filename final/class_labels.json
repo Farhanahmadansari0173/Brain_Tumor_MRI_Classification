@@ -1,0 +1,14 @@
+{
+  "index_to_class": {
+    "0": "glioma",
+    "1": "meningioma",
+    "2": "pituitary",
+    "3": "no_tumor"
+  },
+  "index_to_display": {
+    "0": "Glioma",
+    "1": "Meningioma",
+    "2": "Pituitary",
+    "3": "No Tumor"
+  }
+}

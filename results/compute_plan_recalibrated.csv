@@ -1,0 +1,7 @@
+stage,runs,est_hours
+F  Hyperparameter search (5 archs x 6 short trials),30,1.93
+G  Initial comparison (5 archs x ReLU/GELU x 3 splits),30,5.64
+I  MANDATORY CV: EffNetB0 + DenseNet121 (1 activation),36,5.8
+"N  Final retrain (upper bound, 2 runs)",2,0.57
+(optional) second activation for the mandatory CV,36,5.8
+(worst case) J  best-two extra CV for other archs,36,6.43

@@ -1,0 +1,6 @@
+EDUCATIONAL RESEARCH PROTOTYPE - NOT A CLINICALLY VALIDATED DIAGNOSTIC SYSTEM.
+
+Model: DenseNet121 (ImageNet-pretrained, two-stage fine-tuning), 4-class brain MRI classifier (glioma, meningioma, pituitary, no tumor).
+Data: Kaggle 'brain-tumor-classification-mri' after removing exact duplicates and grouping near-duplicates; no patient IDs exist, so patient-level generalisation was not measured.
+Known limits: class cues from image source/size are present in the dataset; test sets are small (e.g. 30 No Tumor images in the 90:10 test set); single seed; test accuracy is about 0.91-0.93 on a leak-free split.
+Grad-CAM maps are qualitative and are not evidence of clinical correctness.

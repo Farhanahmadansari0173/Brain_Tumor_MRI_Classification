@@ -1,0 +1,5 @@
+,pred Glioma,pred Meningioma,pred Pituitary,pred No Tumor
+true Glioma,87,6,0,0
+true Meningioma,2,86,9,1
+true Pituitary,2,1,104,0
+true No Tumor,1,1,0,28

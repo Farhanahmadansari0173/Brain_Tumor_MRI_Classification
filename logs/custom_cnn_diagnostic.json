@@ -1,0 +1,36 @@
+{
+  "criterion": {
+    "val_acc_gt": 0.6,
+    "val_f1_macro_gt": 0.55
+  },
+  "arms": {
+    "A_baseline_lr1e-3": {},
+    "B_lr3e-4": {
+      "lr": 0.0003
+    },
+    "C_lr1e-4": {
+      "lr": 0.0001
+    },
+    "D_lr3e-4_bn09": {
+      "lr": 0.0003,
+      "bn_momentum": 0.9
+    },
+    "E_lr3e-4_noaug": {
+      "lr": 0.0003,
+      "aug": "none"
+    },
+    "F_lr3e-4_GAP": {
+      "lr": 0.0003,
+      "head_pool": "gap"
+    }
+  },
+  "common": {
+    "epochs": 30,
+    "patience": 10
+  },
+  "selected_arm": "C_lr1e-4",
+  "selected_overrides": {
+    "lr": 0.0001
+  },
+  "note": "single seed per arm, 270-image validation set, tuning split only; test sets untouched"
+}

@@ -1,0 +1,60 @@
+{
+  "seed": 42,
+  "img_size": 224,
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "pituitary",
+    "no_tumor"
+  ],
+  "split_configs": {
+    "70_30": {
+      "train_frac": 0.7,
+      "test_frac": 0.3,
+      "cv_folds": 3
+    },
+    "80_20": {
+      "train_frac": 0.8,
+      "test_frac": 0.2,
+      "cv_folds": 5
+    },
+    "90_10": {
+      "train_frac": 0.9,
+      "test_frac": 0.1,
+      "cv_folds": 10
+    }
+  },
+  "val_fraction": 0.15,
+  "architectures": [
+    "custom_cnn",
+    "resnet50",
+    "vgg19",
+    "densenet121",
+    "efficientnetb0"
+  ],
+  "activations": [
+    "relu",
+    "gelu"
+  ],
+  "mandatory_cv_architectures": [
+    "efficientnetb0",
+    "densenet121"
+  ],
+  "near_duplicate_thresholds": {
+    "phash_strong_max": 6,
+    "dhash_strong_max": 8,
+    "corr_min": 0.98,
+    "phash_pixel_max": 12
+  },
+  "mixed_precision": true,
+  "gpu": {
+    "available": true,
+    "name": "Tesla T4",
+    "compute_capability": [
+      7,
+      5
+    ]
+  },
+  "tf_version": "2.21.0",
+  "keras_version": "3.13.2"
+}

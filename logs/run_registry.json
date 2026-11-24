@@ -1,0 +1,1280 @@
+{
+  "diag__tuning__custom_cnn__relu__trialA_baseline_lr1e-3": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.5991831834270146,
+    "val_loss": 0.8287272572569998,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/diag__tuning__custom_cnn__relu__trialA_baseline_lr1e-3.json",
+    "completed_at": "2026-11-14 06:56:46"
+  },
+  "diag__tuning__custom_cnn__relu__trialB_lr3e-4": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.6855218403150733,
+    "val_loss": 0.7821463809971018,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/diag__tuning__custom_cnn__relu__trialB_lr3e-4.json",
+    "completed_at": "2026-11-14 06:59:07"
+  },
+  "diag__tuning__custom_cnn__relu__trialC_lr1e-4": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.7129996155530118,
+    "val_loss": 0.683802661361149,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/diag__tuning__custom_cnn__relu__trialC_lr1e-4.json",
+    "completed_at": "2026-11-14 07:02:02"
+  },
+  "diag__tuning__custom_cnn__relu__trialD_lr3e-4_bn09": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.6407567485592963,
+    "val_loss": 0.7732910696861686,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/diag__tuning__custom_cnn__relu__trialD_lr3e-4_bn09.json",
+    "completed_at": "2026-11-14 07:03:57"
+  },
+  "diag__tuning__custom_cnn__relu__trialE_lr3e-4_noaug": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.6614795918367347,
+    "val_loss": 0.726206645496874,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/diag__tuning__custom_cnn__relu__trialE_lr3e-4_noaug.json",
+    "completed_at": "2026-11-14 07:05:44"
+  },
+  "diag__tuning__custom_cnn__relu__trialF_lr3e-4_GAP": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.46324251733638167,
+    "val_loss": 1.0628458409041068,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/diag__tuning__custom_cnn__relu__trialF_lr3e-4_GAP.json",
+    "completed_at": "2026-11-14 07:07:37"
+  },
+  "tune__tuning__custom_cnn__relu__trial0": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.7243133443897452,
+    "val_loss": 0.6994489813677761,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__custom_cnn__relu__trial0.json",
+    "completed_at": "2026-11-14 07:09:56"
+  },
+  "tune__tuning__custom_cnn__relu__trial1": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.7763674168590129,
+    "val_loss": 0.5692109103341233,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__custom_cnn__relu__trial1.json",
+    "completed_at": "2026-11-14 07:12:56"
+  },
+  "tune__tuning__custom_cnn__relu__trial2": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.6945702671312428,
+    "val_loss": 0.5603916111999275,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__custom_cnn__relu__trial2.json",
+    "completed_at": "2026-11-14 07:15:26"
+  },
+  "tune__tuning__custom_cnn__relu__trial3": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.4889765305820547,
+    "val_loss": 1.0779939193458814,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__custom_cnn__relu__trial3.json",
+    "completed_at": "2026-11-14 07:16:50"
+  },
+  "tune__tuning__custom_cnn__relu__trial4": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.5068257941898078,
+    "val_loss": 0.9378466475498594,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__custom_cnn__relu__trial4.json",
+    "completed_at": "2026-11-14 07:19:10"
+  },
+  "tune__tuning__custom_cnn__relu__trial5": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.7109285533726981,
+    "val_loss": 0.6982841666860641,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__custom_cnn__relu__trial5.json",
+    "completed_at": "2026-11-14 07:21:31"
+  },
+  "tune__tuning__resnet50__relu__trial0": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8797350255827447,
+    "val_loss": 0.35886421975428806,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__resnet50__relu__trial0.json",
+    "completed_at": "2026-11-14 07:23:52"
+  },
+  "tune__tuning__resnet50__relu__trial1": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.858306672044066,
+    "val_loss": 0.4236272790512758,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__resnet50__relu__trial1.json",
+    "completed_at": "2026-11-14 07:25:41"
+  },
+  "tune__tuning__resnet50__relu__trial2": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9190369719673988,
+    "val_loss": 0.28534417234763787,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__resnet50__relu__trial2.json",
+    "completed_at": "2026-11-14 07:28:25"
+  },
+  "tune__tuning__resnet50__relu__trial3": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9187121212121212,
+    "val_loss": 0.2724266974191708,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__resnet50__relu__trial3.json",
+    "completed_at": "2026-11-14 07:30:58"
+  },
+  "tune__tuning__resnet50__relu__trial4": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8581803997373627,
+    "val_loss": 0.3694811881477251,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__resnet50__relu__trial4.json",
+    "completed_at": "2026-11-14 07:33:29"
+  },
+  "tune__tuning__resnet50__relu__trial5": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8633623321123322,
+    "val_loss": 0.3781666791879684,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__resnet50__relu__trial5.json",
+    "completed_at": "2026-11-14 07:35:55"
+  },
+  "tune__tuning__vgg19__relu__trial0": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8504294776071779,
+    "val_loss": 0.3932343710062574,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__vgg19__relu__trial0.json",
+    "completed_at": "2026-11-14 07:37:37"
+  },
+  "tune__tuning__vgg19__relu__trial1": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8509268185133845,
+    "val_loss": 0.3948990369775832,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__vgg19__relu__trial1.json",
+    "completed_at": "2026-11-14 07:39:09"
+  },
+  "tune__tuning__vgg19__relu__trial2": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8399547679861072,
+    "val_loss": 0.48843303620036554,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__vgg19__relu__trial2.json",
+    "completed_at": "2026-11-14 07:41:00"
+  },
+  "tune__tuning__vgg19__relu__trial3": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9135888818892444,
+    "val_loss": 0.2783394276501062,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__vgg19__relu__trial3.json",
+    "completed_at": "2026-11-14 07:43:05"
+  },
+  "tune__tuning__vgg19__relu__trial4": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9055568113321278,
+    "val_loss": 0.3122401705055502,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__vgg19__relu__trial4.json",
+    "completed_at": "2026-11-14 07:44:37"
+  },
+  "tune__tuning__vgg19__relu__trial5": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8712927681193935,
+    "val_loss": 0.4437409683864035,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__vgg19__relu__trial5.json",
+    "completed_at": "2026-11-14 07:46:23"
+  },
+  "tune__tuning__densenet121__relu__trial0": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8600065030864301,
+    "val_loss": 0.45275730959523935,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__densenet121__relu__trial0.json",
+    "completed_at": "2026-11-14 07:49:30"
+  },
+  "tune__tuning__densenet121__relu__trial1": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9155962984894108,
+    "val_loss": 0.2828944425960528,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__densenet121__relu__trial1.json",
+    "completed_at": "2026-11-14 07:53:00"
+  },
+  "tune__tuning__densenet121__relu__trial2": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.829207954255826,
+    "val_loss": 0.4337389515189528,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__densenet121__relu__trial2.json",
+    "completed_at": "2026-11-14 07:56:32"
+  },
+  "tune__tuning__densenet121__relu__trial3": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8420446111176219,
+    "val_loss": 0.4702201812181097,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__densenet121__relu__trial3.json",
+    "completed_at": "2026-11-14 07:59:37"
+  },
+  "tune__tuning__densenet121__relu__trial4": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.806923358331809,
+    "val_loss": 0.5311711622831623,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__densenet121__relu__trial4.json",
+    "completed_at": "2026-11-14 08:02:57"
+  },
+  "tune__tuning__densenet121__relu__trial5": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8375418557346268,
+    "val_loss": 0.47016274294044885,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__densenet121__relu__trial5.json",
+    "completed_at": "2026-11-14 08:06:22"
+  },
+  "tune__tuning__efficientnetb0__relu__trial0": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.844792406383668,
+    "val_loss": 0.4969092744546134,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__efficientnetb0__relu__trial0.json",
+    "completed_at": "2026-11-14 08:08:41"
+  },
+  "tune__tuning__efficientnetb0__relu__trial1": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8166633376610406,
+    "val_loss": 0.5166697442557612,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__efficientnetb0__relu__trial1.json",
+    "completed_at": "2026-11-14 08:10:53"
+  },
+  "tune__tuning__efficientnetb0__relu__trial2": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8503724312547842,
+    "val_loss": 0.46553781326520205,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__efficientnetb0__relu__trial2.json",
+    "completed_at": "2026-11-14 08:13:14"
+  },
+  "tune__tuning__efficientnetb0__relu__trial3": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8182828477493415,
+    "val_loss": 0.5203533996544223,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__efficientnetb0__relu__trial3.json",
+    "completed_at": "2026-11-14 08:15:23"
+  },
+  "tune__tuning__efficientnetb0__relu__trial4": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8149659157374043,
+    "val_loss": 0.546857130456883,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__efficientnetb0__relu__trial4.json",
+    "completed_at": "2026-11-14 08:17:56"
+  },
+  "tune__tuning__efficientnetb0__relu__trial5": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9118844744042625,
+    "val_loss": 0.34137735679103104,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/tune__tuning__efficientnetb0__relu__trial5.json",
+    "completed_at": "2026-11-14 08:20:26"
+  },
+  "abl__tuning__efficientnetb0__relu__trialnone_s42": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9241995261262514,
+    "val_loss": 0.2745404846987291,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/abl__tuning__efficientnetb0__relu__trialnone_s42.json",
+    "completed_at": "2026-11-14 08:27:37"
+  },
+  "abl__tuning__efficientnetb0__relu__trialnone_s43": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9281931254242708,
+    "val_loss": 0.2515880240820263,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/abl__tuning__efficientnetb0__relu__trialnone_s43.json",
+    "completed_at": "2026-11-14 08:30:43"
+  },
+  "abl__tuning__efficientnetb0__relu__trialconservative_s42": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9248860880927432,
+    "val_loss": 0.29615217197459953,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/abl__tuning__efficientnetb0__relu__trialconservative_s42.json",
+    "completed_at": "2026-11-14 08:33:54"
+  },
+  "abl__tuning__efficientnetb0__relu__trialconservative_s43": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.8987769344476662,
+    "val_loss": 0.3075852389976374,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/abl__tuning__efficientnetb0__relu__trialconservative_s43.json",
+    "completed_at": "2026-11-14 08:37:07"
+  },
+  "abl__tuning__efficientnetb0__relu__trialconservative_hflip_s42": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9014470809342605,
+    "val_loss": 0.3298410081628335,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/abl__tuning__efficientnetb0__relu__trialconservative_hflip_s42.json",
+    "completed_at": "2026-11-14 08:40:20"
+  },
+  "abl__tuning__efficientnetb0__relu__trialconservative_hflip_s43": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9156134569535093,
+    "val_loss": 0.2904828537746933,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/abl__tuning__efficientnetb0__relu__trialconservative_hflip_s43.json",
+    "completed_at": "2026-11-14 08:43:35"
+  },
+  "abl__tuning__densenet121__relu__trialnone_s42": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9082470712204798,
+    "val_loss": 0.2875156118004315,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/abl__tuning__densenet121__relu__trialnone_s42.json",
+    "completed_at": "2026-11-14 08:47:54"
+  },
+  "abl__tuning__densenet121__relu__trialnone_s43": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9349450923386318,
+    "val_loss": 0.22173361972766714,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/abl__tuning__densenet121__relu__trialnone_s43.json",
+    "completed_at": "2026-11-14 08:52:45"
+  },
+  "abl__tuning__densenet121__relu__trialconservative_s42": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9382484979827815,
+    "val_loss": 0.22802228637384744,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/abl__tuning__densenet121__relu__trialconservative_s42.json",
+    "completed_at": "2026-11-14 08:58:10"
+  },
+  "abl__tuning__densenet121__relu__trialconservative_s43": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9325865148507634,
+    "val_loss": 0.2589465477590792,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/abl__tuning__densenet121__relu__trialconservative_s43.json",
+    "completed_at": "2026-11-14 09:03:36"
+  },
+  "abl__tuning__densenet121__relu__trialconservative_hflip_s42": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9336241857343358,
+    "val_loss": 0.24530574147166523,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/abl__tuning__densenet121__relu__trialconservative_hflip_s42.json",
+    "completed_at": "2026-11-14 09:09:03"
+  },
+  "abl__tuning__densenet121__relu__trialconservative_hflip_s43": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "tuning",
+    "val_f1_macro": 0.9090889282651129,
+    "val_loss": 0.2847227752336457,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/abl__tuning__densenet121__relu__trialconservative_hflip_s43.json",
+    "completed_at": "2026-11-14 09:13:52"
+  },
+  "init__70_30__custom_cnn__relu": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "70_30",
+    "val_f1_macro": 0.781493723961473,
+    "val_loss": 0.5606909587084986,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__70_30__custom_cnn__relu.json",
+    "completed_at": "2026-11-14 09:30:06"
+  },
+  "init__70_30__resnet50__relu": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "70_30",
+    "val_f1_macro": 0.9366361545069984,
+    "val_loss": 0.2572422747148872,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__70_30__resnet50__relu.json",
+    "completed_at": "2026-11-14 09:34:10"
+  },
+  "init__70_30__vgg19__relu": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "70_30",
+    "val_f1_macro": 0.9122257607926398,
+    "val_loss": 0.2444973650394658,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__70_30__vgg19__relu.json",
+    "completed_at": "2026-11-14 09:38:45"
+  },
+  "init__70_30__densenet121__relu": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "70_30",
+    "val_f1_macro": 0.9323958707367072,
+    "val_loss": 0.24635250288204727,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__70_30__densenet121__relu.json",
+    "completed_at": "2026-11-14 09:45:27"
+  },
+  "init__70_30__efficientnetb0__relu": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "70_30",
+    "val_f1_macro": 0.869536362274961,
+    "val_loss": 0.33673053475366044,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__70_30__efficientnetb0__relu.json",
+    "completed_at": "2026-11-14 09:49:21"
+  },
+  "init__80_20__custom_cnn__relu": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.7823326313439719,
+    "val_loss": 0.5559963634794611,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__80_20__custom_cnn__relu.json",
+    "completed_at": "2026-11-14 10:16:20"
+  },
+  "init__80_20__resnet50__relu": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.939184966137428,
+    "val_loss": 0.18843985126752794,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__80_20__resnet50__relu.json",
+    "completed_at": "2026-11-14 10:21:05"
+  },
+  "init__80_20__vgg19__relu": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.9554802903260253,
+    "val_loss": 0.1577810958695632,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__80_20__vgg19__relu.json",
+    "completed_at": "2026-11-14 10:25:47"
+  },
+  "init__80_20__densenet121__relu": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.9368605361553893,
+    "val_loss": 0.18721462710355266,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__80_20__densenet121__relu.json",
+    "completed_at": "2026-11-14 10:31:45"
+  },
+  "init__80_20__efficientnetb0__relu": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.9406517774318822,
+    "val_loss": 0.19987790156643068,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__80_20__efficientnetb0__relu.json",
+    "completed_at": "2026-11-14 10:36:31"
+  },
+  "init__90_10__custom_cnn__relu": {
+    "arch": "custom_cnn",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.7998125762206377,
+    "val_loss": 0.48162643638565,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__90_10__custom_cnn__relu.json",
+    "completed_at": "2026-11-14 10:42:13"
+  },
+  "init__90_10__resnet50__relu": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9407515791209518,
+    "val_loss": 0.19610500565587538,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__90_10__resnet50__relu.json",
+    "completed_at": "2026-11-14 10:48:42"
+  },
+  "init__90_10__vgg19__relu": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9003522503480093,
+    "val_loss": 0.2948207050403868,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__90_10__vgg19__relu.json",
+    "completed_at": "2026-11-14 10:53:36"
+  },
+  "init__90_10__densenet121__relu": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9204608323775108,
+    "val_loss": 0.2048919972093013,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__90_10__densenet121__relu.json",
+    "completed_at": "2026-11-14 11:02:04"
+  },
+  "init__90_10__efficientnetb0__relu": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9529043797129981,
+    "val_loss": 0.16354903713399116,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__90_10__efficientnetb0__relu.json",
+    "completed_at": "2026-11-14 11:07:29"
+  },
+  "init__70_30__custom_cnn__gelu": {
+    "arch": "custom_cnn",
+    "activation": "gelu",
+    "split": "70_30",
+    "val_f1_macro": 0.760922638858998,
+    "val_loss": 0.5660087175397098,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__70_30__custom_cnn__gelu.json",
+    "completed_at": "2026-11-14 11:12:30"
+  },
+  "init__70_30__resnet50__gelu": {
+    "arch": "resnet50",
+    "activation": "gelu",
+    "split": "70_30",
+    "val_f1_macro": 0.9268074438518924,
+    "val_loss": 0.2728660700620798,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__70_30__resnet50__gelu.json",
+    "completed_at": "2026-11-14 11:17:09"
+  },
+  "init__70_30__vgg19__gelu": {
+    "arch": "vgg19",
+    "activation": "gelu",
+    "split": "70_30",
+    "val_f1_macro": 0.9426327608295496,
+    "val_loss": 0.251764030954815,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__70_30__vgg19__gelu.json",
+    "completed_at": "2026-11-14 11:21:02"
+  },
+  "init__70_30__densenet121__gelu": {
+    "arch": "densenet121",
+    "activation": "gelu",
+    "split": "70_30",
+    "val_f1_macro": 0.9262170713518019,
+    "val_loss": 0.22710636332134948,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__70_30__densenet121__gelu.json",
+    "completed_at": "2026-11-14 11:27:49"
+  },
+  "init__70_30__efficientnetb0__gelu": {
+    "arch": "efficientnetb0",
+    "activation": "gelu",
+    "split": "70_30",
+    "val_f1_macro": 0.9198876558764618,
+    "val_loss": 0.3198037020541632,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__70_30__efficientnetb0__gelu.json",
+    "completed_at": "2026-11-14 11:32:24"
+  },
+  "init__80_20__custom_cnn__gelu": {
+    "arch": "custom_cnn",
+    "activation": "gelu",
+    "split": "80_20",
+    "val_f1_macro": 0.7886953975147559,
+    "val_loss": 0.48946626769759793,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__80_20__custom_cnn__gelu.json",
+    "completed_at": "2026-11-14 11:39:24"
+  },
+  "init__80_20__resnet50__gelu": {
+    "arch": "resnet50",
+    "activation": "gelu",
+    "split": "80_20",
+    "val_f1_macro": 0.9225749778069198,
+    "val_loss": 0.18413770512257882,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__80_20__resnet50__gelu.json",
+    "completed_at": "2026-11-14 11:44:27"
+  },
+  "init__80_20__vgg19__gelu": {
+    "arch": "vgg19",
+    "activation": "gelu",
+    "split": "80_20",
+    "val_f1_macro": 0.9515073005475411,
+    "val_loss": 0.11637902727877049,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__80_20__vgg19__gelu.json",
+    "completed_at": "2026-11-14 11:48:42"
+  },
+  "init__80_20__densenet121__gelu": {
+    "arch": "densenet121",
+    "activation": "gelu",
+    "split": "80_20",
+    "val_f1_macro": 0.9516863014853271,
+    "val_loss": 0.17860007099976385,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__80_20__densenet121__gelu.json",
+    "completed_at": "2026-11-14 11:56:34"
+  },
+  "init__80_20__efficientnetb0__gelu": {
+    "arch": "efficientnetb0",
+    "activation": "gelu",
+    "split": "80_20",
+    "val_f1_macro": 0.9359965887988067,
+    "val_loss": 0.20217571471195292,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__80_20__efficientnetb0__gelu.json",
+    "completed_at": "2026-11-14 12:01:57"
+  },
+  "init__90_10__custom_cnn__gelu": {
+    "arch": "custom_cnn",
+    "activation": "gelu",
+    "split": "90_10",
+    "val_f1_macro": 0.8250679487374138,
+    "val_loss": 0.5031024392917537,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__90_10__custom_cnn__gelu.json",
+    "completed_at": "2026-11-14 12:32:03"
+  },
+  "init__90_10__resnet50__gelu": {
+    "arch": "resnet50",
+    "activation": "gelu",
+    "split": "90_10",
+    "val_f1_macro": 0.9225983502299292,
+    "val_loss": 0.2603986876170929,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__90_10__resnet50__gelu.json",
+    "completed_at": "2026-11-14 12:36:17"
+  },
+  "init__90_10__vgg19__gelu": {
+    "arch": "vgg19",
+    "activation": "gelu",
+    "split": "90_10",
+    "val_f1_macro": 0.9252043964551223,
+    "val_loss": 0.2593584573016525,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__90_10__vgg19__gelu.json",
+    "completed_at": "2026-11-14 12:40:32"
+  },
+  "init__90_10__densenet121__gelu": {
+    "arch": "densenet121",
+    "activation": "gelu",
+    "split": "90_10",
+    "val_f1_macro": 0.9017238827978264,
+    "val_loss": 0.24993718760290903,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__90_10__densenet121__gelu.json",
+    "completed_at": "2026-11-14 12:45:53"
+  },
+  "init__90_10__efficientnetb0__gelu": {
+    "arch": "efficientnetb0",
+    "activation": "gelu",
+    "split": "90_10",
+    "val_f1_macro": 0.9462476282424901,
+    "val_loss": 0.16147694157052062,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/init__90_10__efficientnetb0__gelu.json",
+    "completed_at": "2026-11-14 12:50:18"
+  },
+  "cv__70_30__efficientnetb0__gelu__fold0": {
+    "arch": "efficientnetb0",
+    "activation": "gelu",
+    "split": "70_30",
+    "val_f1_macro": 0.9337364024864026,
+    "val_loss": 0.21247415397668976,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__70_30__efficientnetb0__gelu__fold0.json",
+    "completed_at": "2026-11-14 13:10:18"
+  },
+  "cv__70_30__efficientnetb0__gelu__fold1": {
+    "arch": "efficientnetb0",
+    "activation": "gelu",
+    "split": "70_30",
+    "val_f1_macro": 0.8861250624214014,
+    "val_loss": 0.3786041788554307,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__70_30__efficientnetb0__gelu__fold1.json",
+    "completed_at": "2026-11-14 13:12:37"
+  },
+  "cv__70_30__efficientnetb0__gelu__fold2": {
+    "arch": "efficientnetb0",
+    "activation": "gelu",
+    "split": "70_30",
+    "val_f1_macro": 0.9003701415794041,
+    "val_loss": 0.24178867572379872,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__70_30__efficientnetb0__gelu__fold2.json",
+    "completed_at": "2026-11-14 13:15:03"
+  },
+  "cv__70_30__densenet121__relu__fold0": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "70_30",
+    "val_f1_macro": 0.9410310716092083,
+    "val_loss": 0.1926730183090602,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__70_30__densenet121__relu__fold0.json",
+    "completed_at": "2026-11-14 13:19:06"
+  },
+  "cv__70_30__densenet121__relu__fold1": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "70_30",
+    "val_f1_macro": 0.9205433455433456,
+    "val_loss": 0.2455568894054206,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__70_30__densenet121__relu__fold1.json",
+    "completed_at": "2026-11-14 13:23:01"
+  },
+  "cv__70_30__densenet121__relu__fold2": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "70_30",
+    "val_f1_macro": 0.9284658145263107,
+    "val_loss": 0.20930673982640385,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__70_30__densenet121__relu__fold2.json",
+    "completed_at": "2026-11-14 13:27:17"
+  },
+  "cv__80_20__efficientnetb0__relu__fold0": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.8823818672459549,
+    "val_loss": 0.3390779495343054,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__efficientnetb0__relu__fold0.json",
+    "completed_at": "2026-11-14 13:30:28"
+  },
+  "cv__80_20__efficientnetb0__relu__fold1": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.9379535071207616,
+    "val_loss": 0.17833876544207114,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__efficientnetb0__relu__fold1.json",
+    "completed_at": "2026-11-14 13:33:44"
+  },
+  "cv__80_20__efficientnetb0__relu__fold2": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.9071089103275563,
+    "val_loss": 0.27751003171480404,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__efficientnetb0__relu__fold2.json",
+    "completed_at": "2026-11-14 13:36:54"
+  },
+  "cv__80_20__efficientnetb0__relu__fold3": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.9173155066682543,
+    "val_loss": 0.26799841223083304,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__efficientnetb0__relu__fold3.json",
+    "completed_at": "2026-11-14 13:39:57"
+  },
+  "cv__80_20__efficientnetb0__relu__fold4": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.9319722577703249,
+    "val_loss": 0.2218308564293657,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__efficientnetb0__relu__fold4.json",
+    "completed_at": "2026-11-14 13:43:51"
+  },
+  "cv__80_20__densenet121__gelu__fold0": {
+    "arch": "densenet121",
+    "activation": "gelu",
+    "split": "80_20",
+    "val_f1_macro": 0.890165406538534,
+    "val_loss": 0.36486870208490313,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__densenet121__gelu__fold0.json",
+    "completed_at": "2026-11-14 13:48:37"
+  },
+  "cv__80_20__densenet121__gelu__fold1": {
+    "arch": "densenet121",
+    "activation": "gelu",
+    "split": "80_20",
+    "val_f1_macro": 0.9527948551848259,
+    "val_loss": 0.1290870786780835,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__densenet121__gelu__fold1.json",
+    "completed_at": "2026-11-14 13:54:04"
+  },
+  "cv__80_20__densenet121__gelu__fold2": {
+    "arch": "densenet121",
+    "activation": "gelu",
+    "split": "80_20",
+    "val_f1_macro": 0.9271224372477428,
+    "val_loss": 0.2537306688513635,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__densenet121__gelu__fold2.json",
+    "completed_at": "2026-11-14 13:59:50"
+  },
+  "cv__80_20__densenet121__gelu__fold3": {
+    "arch": "densenet121",
+    "activation": "gelu",
+    "split": "80_20",
+    "val_f1_macro": 0.9151246562191322,
+    "val_loss": 0.2654963263800812,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__densenet121__gelu__fold3.json",
+    "completed_at": "2026-11-14 14:04:58"
+  },
+  "cv__80_20__densenet121__gelu__fold4": {
+    "arch": "densenet121",
+    "activation": "gelu",
+    "split": "80_20",
+    "val_f1_macro": 0.9478030265360583,
+    "val_loss": 0.14463146966685983,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__densenet121__gelu__fold4.json",
+    "completed_at": "2026-11-14 14:10:05"
+  },
+  "cv__90_10__efficientnetb0__relu__fold0": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.938947883379163,
+    "val_loss": 0.17008893658694985,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__efficientnetb0__relu__fold0.json",
+    "completed_at": "2026-11-14 14:14:46"
+  },
+  "cv__90_10__efficientnetb0__relu__fold1": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9402237389632349,
+    "val_loss": 0.20374975382028396,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__efficientnetb0__relu__fold1.json",
+    "completed_at": "2026-11-14 14:18:57"
+  },
+  "cv__90_10__efficientnetb0__relu__fold2": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9357769273243084,
+    "val_loss": 0.24226469867873265,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__efficientnetb0__relu__fold2.json",
+    "completed_at": "2026-11-14 14:23:11"
+  },
+  "cv__90_10__efficientnetb0__relu__fold3": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9263245573159367,
+    "val_loss": 0.20349522075596366,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__efficientnetb0__relu__fold3.json",
+    "completed_at": "2026-11-14 14:28:05"
+  },
+  "cv__90_10__efficientnetb0__relu__fold4": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9226506987128248,
+    "val_loss": 0.2314198296562058,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__efficientnetb0__relu__fold4.json",
+    "completed_at": "2026-11-14 14:32:45"
+  },
+  "cv__90_10__efficientnetb0__relu__fold5": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9257360780432704,
+    "val_loss": 0.24528117385675627,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__efficientnetb0__relu__fold5.json",
+    "completed_at": "2026-11-14 14:37:00"
+  },
+  "cv__90_10__efficientnetb0__relu__fold6": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9202013861981979,
+    "val_loss": 0.2189154755597124,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__efficientnetb0__relu__fold6.json",
+    "completed_at": "2026-11-14 14:41:29"
+  },
+  "cv__90_10__efficientnetb0__relu__fold7": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.964847615834458,
+    "val_loss": 0.1417055679299156,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__efficientnetb0__relu__fold7.json",
+    "completed_at": "2026-11-14 14:47:05"
+  },
+  "cv__90_10__efficientnetb0__relu__fold8": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9614402248172343,
+    "val_loss": 0.12981668972226124,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__efficientnetb0__relu__fold8.json",
+    "completed_at": "2026-11-14 14:51:07"
+  },
+  "cv__90_10__efficientnetb0__relu__fold9": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9256812616905545,
+    "val_loss": 0.2173130488200772,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__efficientnetb0__relu__fold9.json",
+    "completed_at": "2026-11-14 14:56:01"
+  },
+  "cv__90_10__densenet121__relu__fold0": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9571188684698504,
+    "val_loss": 0.12824216872917168,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__densenet121__relu__fold0.json",
+    "completed_at": "2026-11-14 15:03:41"
+  },
+  "cv__90_10__densenet121__relu__fold1": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.937202039340601,
+    "val_loss": 0.23497549184788716,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__densenet121__relu__fold1.json",
+    "completed_at": "2026-11-14 15:10:08"
+  },
+  "cv__90_10__densenet121__relu__fold2": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9541693294837686,
+    "val_loss": 0.1869408439652715,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__densenet121__relu__fold2.json",
+    "completed_at": "2026-11-14 15:17:39"
+  },
+  "cv__90_10__densenet121__relu__fold3": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.966562781599098,
+    "val_loss": 0.13110491380497719,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__densenet121__relu__fold3.json",
+    "completed_at": "2026-11-14 15:25:12"
+  },
+  "cv__90_10__densenet121__relu__fold4": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9111647930922125,
+    "val_loss": 0.23352995449211295,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__densenet121__relu__fold4.json",
+    "completed_at": "2026-11-14 15:31:19"
+  },
+  "cv__90_10__densenet121__relu__fold5": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9172914395685641,
+    "val_loss": 0.26583383453009113,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__densenet121__relu__fold5.json",
+    "completed_at": "2026-11-14 15:37:14"
+  },
+  "cv__90_10__densenet121__relu__fold6": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9366844899296329,
+    "val_loss": 0.18221235362215094,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__densenet121__relu__fold6.json",
+    "completed_at": "2026-11-14 15:44:04"
+  },
+  "cv__90_10__densenet121__relu__fold7": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9600150666327137,
+    "val_loss": 0.12914889676175345,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__densenet121__relu__fold7.json",
+    "completed_at": "2026-11-14 15:52:08"
+  },
+  "cv__90_10__densenet121__relu__fold8": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9543344389030737,
+    "val_loss": 0.15185327523063127,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__densenet121__relu__fold8.json",
+    "completed_at": "2026-11-14 15:59:54"
+  },
+  "cv__90_10__densenet121__relu__fold9": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9202069482014177,
+    "val_loss": 0.23644703184935692,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__densenet121__relu__fold9.json",
+    "completed_at": "2026-11-14 16:06:39"
+  },
+  "cv__70_30__vgg19__gelu__fold0": {
+    "arch": "vgg19",
+    "activation": "gelu",
+    "split": "70_30",
+    "val_f1_macro": 0.9187133832171759,
+    "val_loss": 0.25724414930439615,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__70_30__vgg19__gelu__fold0.json",
+    "completed_at": "2026-11-14 16:25:01"
+  },
+  "cv__70_30__vgg19__gelu__fold1": {
+    "arch": "vgg19",
+    "activation": "gelu",
+    "split": "70_30",
+    "val_f1_macro": 0.9145334763564853,
+    "val_loss": 0.29203099073978067,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__70_30__vgg19__gelu__fold1.json",
+    "completed_at": "2026-11-14 16:28:35"
+  },
+  "cv__70_30__vgg19__gelu__fold2": {
+    "arch": "vgg19",
+    "activation": "gelu",
+    "split": "70_30",
+    "val_f1_macro": 0.9550242122539778,
+    "val_loss": 0.1679134768056346,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__70_30__vgg19__gelu__fold2.json",
+    "completed_at": "2026-11-14 16:31:59"
+  },
+  "cv__70_30__resnet50__relu__fold0": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "70_30",
+    "val_f1_macro": 0.9427501368745608,
+    "val_loss": 0.21523312020002094,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__70_30__resnet50__relu__fold0.json",
+    "completed_at": "2026-11-14 16:36:03"
+  },
+  "cv__70_30__resnet50__relu__fold1": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "70_30",
+    "val_f1_macro": 0.9282936296098581,
+    "val_loss": 0.23383059199374673,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__70_30__resnet50__relu__fold1.json",
+    "completed_at": "2026-11-14 16:39:43"
+  },
+  "cv__70_30__resnet50__relu__fold2": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "70_30",
+    "val_f1_macro": 0.9277289896341492,
+    "val_loss": 0.20546908871324915,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__70_30__resnet50__relu__fold2.json",
+    "completed_at": "2026-11-14 16:43:20"
+  },
+  "cv__80_20__vgg19__relu__fold0": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.9264733723594509,
+    "val_loss": 0.30259003040035415,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__vgg19__relu__fold0.json",
+    "completed_at": "2026-11-14 16:47:30"
+  },
+  "cv__80_20__vgg19__relu__fold1": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.9318198794669383,
+    "val_loss": 0.21760216727718795,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__vgg19__relu__fold1.json",
+    "completed_at": "2026-11-14 16:51:06"
+  },
+  "cv__80_20__vgg19__relu__fold2": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.8802562427409988,
+    "val_loss": 0.36063525962549825,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__vgg19__relu__fold2.json",
+    "completed_at": "2026-11-14 16:54:47"
+  },
+  "cv__80_20__vgg19__relu__fold3": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.9047604233568829,
+    "val_loss": 0.3716468822556311,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__vgg19__relu__fold3.json",
+    "completed_at": "2026-11-14 16:58:37"
+  },
+  "cv__80_20__vgg19__relu__fold4": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.8978266888150609,
+    "val_loss": 0.3015973408957987,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__80_20__vgg19__relu__fold4.json",
+    "completed_at": "2026-11-14 17:02:59"
+  },
+  "cv__90_10__resnet50__relu__fold0": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9565785368345842,
+    "val_loss": 0.1755913756730067,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__resnet50__relu__fold0.json",
+    "completed_at": "2026-11-14 17:08:55"
+  },
+  "cv__90_10__resnet50__relu__fold1": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9494102022346718,
+    "val_loss": 0.24635335278687515,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__resnet50__relu__fold1.json",
+    "completed_at": "2026-11-14 17:14:43"
+  },
+  "cv__90_10__resnet50__relu__fold2": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9341410095228788,
+    "val_loss": 0.195949339850573,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__resnet50__relu__fold2.json",
+    "completed_at": "2026-11-14 17:21:02"
+  },
+  "cv__90_10__resnet50__relu__fold3": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9267777581503072,
+    "val_loss": 0.1948185552998707,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__resnet50__relu__fold3.json",
+    "completed_at": "2026-11-14 17:25:49"
+  },
+  "cv__90_10__resnet50__relu__fold4": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9314671402471296,
+    "val_loss": 0.23498687401830354,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__resnet50__relu__fold4.json",
+    "completed_at": "2026-11-14 17:31:01"
+  },
+  "cv__90_10__resnet50__relu__fold5": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9448517463012369,
+    "val_loss": 0.20279661371630736,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__resnet50__relu__fold5.json",
+    "completed_at": "2026-11-14 17:36:35"
+  },
+  "cv__90_10__resnet50__relu__fold6": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.957990664995382,
+    "val_loss": 0.1341095244479059,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__resnet50__relu__fold6.json",
+    "completed_at": "2026-11-14 17:42:02"
+  },
+  "cv__90_10__resnet50__relu__fold7": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9295614930293377,
+    "val_loss": 0.14659221292200997,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/cv__90_10__resnet50__relu__fold7.json",
+    "completed_at": "2026-11-14 17:48:17"
+  },
+  "retrain__70_30__resnet50__relu": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "70_30",
+    "val_f1_macro": 0.926093257436541,
+    "val_loss": 0.29929232655494026,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/retrain__70_30__resnet50__relu.json",
+    "completed_at": "2026-11-15 05:08:53"
+  },
+  "retrain__70_30__vgg19__gelu": {
+    "arch": "vgg19",
+    "activation": "gelu",
+    "split": "70_30",
+    "val_f1_macro": 0.9374256839986478,
+    "val_loss": 0.24455565402221952,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/retrain__70_30__vgg19__gelu.json",
+    "completed_at": "2026-11-15 05:12:32"
+  },
+  "retrain__80_20__vgg19__relu": {
+    "arch": "vgg19",
+    "activation": "relu",
+    "split": "80_20",
+    "val_f1_macro": 0.9501158641566375,
+    "val_loss": 0.13788756976928632,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/retrain__80_20__vgg19__relu.json",
+    "completed_at": "2026-11-15 05:16:40"
+  },
+  "retrain__80_20__densenet121__gelu": {
+    "arch": "densenet121",
+    "activation": "gelu",
+    "split": "80_20",
+    "val_f1_macro": 0.9536316800890046,
+    "val_loss": 0.1512406968425816,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/retrain__80_20__densenet121__gelu.json",
+    "completed_at": "2026-11-15 05:25:32"
+  },
+  "retrain__90_10__resnet50__relu": {
+    "arch": "resnet50",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.880267316006765,
+    "val_loss": 0.2869513209768782,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/retrain__90_10__resnet50__relu.json",
+    "completed_at": "2026-11-15 05:30:33"
+  },
+  "retrain__90_10__efficientnetb0__relu": {
+    "arch": "efficientnetb0",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9423007518401016,
+    "val_loss": 0.1642320375091239,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/retrain__90_10__efficientnetb0__relu.json",
+    "completed_at": "2026-11-15 05:35:26"
+  },
+  "final__90_10__densenet121__relu__trialseed42": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9190624582109318,
+    "val_loss": 0.22843651666521328,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/final__90_10__densenet121__relu__trialseed42.json",
+    "completed_at": "2026-11-15 05:53:00"
+  },
+  "final__90_10__densenet121__relu__trialseed43": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9384308220515116,
+    "val_loss": 0.23198475574237393,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/final__90_10__densenet121__relu__trialseed43.json",
+    "completed_at": "2026-11-15 06:00:52"
+  },
+  "final__90_10__densenet121__relu__trialseed44": {
+    "arch": "densenet121",
+    "activation": "relu",
+    "split": "90_10",
+    "val_f1_macro": 0.9233850502482316,
+    "val_loss": 0.2113182137768185,
+    "result_path": "/kaggle/working/brain_tumor_project/results/runs/final__90_10__densenet121__relu__trialseed44.json",
+    "completed_at": "2026-11-15 06:08:10"
+  }
+}

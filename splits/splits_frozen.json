@@ -1,0 +1,25 @@
+{
+  "signature": "5e6b449fd72bedf50b77649bf5de220be23b40d4b09e3a83df613332a70de220",
+  "frozen_at": "2026-11-14 07:07:43",
+  "sizes": {
+    "70_30": {
+      "train_idx": 1968,
+      "fit_idx": 1698,
+      "val_idx": 270,
+      "test_idx": 902
+    },
+    "80_20": {
+      "train_idx": 2259,
+      "fit_idx": 1944,
+      "val_idx": 315,
+      "test_idx": 611
+    },
+    "90_10": {
+      "train_idx": 2542,
+      "fit_idx": 2169,
+      "val_idx": 373,
+      "test_idx": 328
+    }
+  },
+  "leakage_checks_passed": 28
+}

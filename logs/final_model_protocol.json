@@ -1,0 +1,13 @@
+{
+  "written_at": "2026-11-15 05:47:00",
+  "final_model": {
+    "arch": "densenet121",
+    "split": "90_10",
+    "activation": "relu",
+    "why_architecture": "F1 difference 0.0158 < fold SD 0.0159 (tie); lower generalisation gap decides (-0.0215)",
+    "why_split": "splits within one SD of the best: ['70_30', '80_20', '90_10']; largest training portion chosen"
+  },
+  "rule": "the seed-42 model is THE final model; extra seeds [43, 44] are variance information only and are never swapped in",
+  "training": "same procedure as Stage G: tuned hyperparameters, fit/val of the split, early stopping on validation loss",
+  "test": "each model evaluated once on the split's test set; no feedback into any decision"
+}

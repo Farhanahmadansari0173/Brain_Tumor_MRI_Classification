@@ -1,0 +1,49 @@
+{
+  "data": "tuning split only (core 70% pool); test sets never touched",
+  "search": "trial 0 = defaults + 5 seeded random trials per architecture",
+  "budget": {
+    "custom_cnn": {
+      "epochs": 25,
+      "patience": 8
+    },
+    "resnet50": {
+      "epochs_head": 5,
+      "epochs_ft": 8,
+      "patience_head": 3,
+      "patience": 4,
+      "rlrop_patience": 2
+    },
+    "vgg19": {
+      "epochs_head": 5,
+      "epochs_ft": 8,
+      "patience_head": 3,
+      "patience": 4,
+      "rlrop_patience": 2
+    },
+    "densenet121": {
+      "epochs_head": 5,
+      "epochs_ft": 8,
+      "patience_head": 3,
+      "patience": 4,
+      "rlrop_patience": 2
+    },
+    "efficientnetb0": {
+      "epochs_head": 5,
+      "epochs_ft": 8,
+      "patience_head": 3,
+      "patience": 4,
+      "rlrop_patience": 2
+    }
+  },
+  "activation": "tuned with ReLU; reused unchanged for GELU",
+  "selection": [
+    "highest validation macro-F1",
+    "trials within 0.01 macro-F1 of the best: lowest validation loss",
+    "a non-default trial must beat the default (trial 0) by >= 0.02 macro-F1, otherwise the default is kept"
+  ],
+  "caveats": [
+    "6 trials on 270 validation images: noisy",
+    "short budgets favour fast-learning (higher-lr) configurations",
+    "selected validation scores are optimistically biased (selection on the same images)"
+  ]
+}

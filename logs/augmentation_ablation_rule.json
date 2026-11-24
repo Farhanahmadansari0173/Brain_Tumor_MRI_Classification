@@ -1,0 +1,13 @@
+{
+  "data": "tuning split only; test sets locked",
+  "design": "2 archs x 3 presets x 2 seeds, tuned hyperparameters, ReLU head",
+  "budget": {
+    "epochs_head": 5,
+    "epochs_ft": 15,
+    "patience_head": 3,
+    "patience": 5,
+    "rlrop_patience": 2
+  },
+  "adopt_rule": "a preset replaces 'conservative' only if mean paired val macro-F1 gain >= 0.02 AND it wins >= 3 of 4 pairs; if both qualify the larger mean gain wins; otherwise 'conservative' is kept",
+  "caveat": "4 paired comparisons on 270 validation images; short budget"
+}

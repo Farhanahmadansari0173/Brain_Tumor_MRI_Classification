@@ -1,0 +1,17 @@
+{
+  "img_size": 224,
+  "color": "grayscale_replicated_to_3_channels",
+  "pad_to_square": true,
+  "pad_value": 0,
+  "resample": "BICUBIC",
+  "dtype": "uint8",
+  "normalisation": "applied inside each model (architecture-specific)",
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "pituitary",
+    "no_tumor"
+  ],
+  "model_input": "float32 pixels 0-255, shape (224, 224, 3); the model scales them itself",
+  "in_model_preprocessing": "torch"
+}

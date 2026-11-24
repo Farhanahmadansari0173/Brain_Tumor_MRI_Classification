@@ -1,0 +1,154 @@
+{
+  "rule": "per split: each architecture represented by its better activation variant; rank by validation macro-F1 (equal to 3 decimals = tie -> lower validation loss); top two architectures",
+  "data": "validation sets only; test sets locked",
+  "splits": {
+    "70_30": {
+      "ranking": [
+        {
+          "arch": "vgg19",
+          "activation": "gelu",
+          "val_f1": 0.9426327608295496,
+          "val_loss": 0.251764030954815
+        },
+        {
+          "arch": "resnet50",
+          "activation": "relu",
+          "val_f1": 0.9366361545069984,
+          "val_loss": 0.2572422747148872
+        },
+        {
+          "arch": "densenet121",
+          "activation": "relu",
+          "val_f1": 0.9323958707367072,
+          "val_loss": 0.24635250288204727
+        },
+        {
+          "arch": "efficientnetb0",
+          "activation": "gelu",
+          "val_f1": 0.9198876558764618,
+          "val_loss": 0.3198037020541632
+        },
+        {
+          "arch": "custom_cnn",
+          "activation": "relu",
+          "val_f1": 0.781493723961473,
+          "val_loss": 0.5606909587084986
+        }
+      ],
+      "top_two": [
+        "vgg19",
+        "resnet50"
+      ],
+      "extra_cv_needed": [
+        "vgg19",
+        "resnet50"
+      ],
+      "third_place_gap_to_second": 0.0042402837702912866,
+      "best_activation": {
+        "vgg19": "gelu",
+        "resnet50": "relu",
+        "densenet121": "relu",
+        "efficientnetb0": "gelu",
+        "custom_cnn": "relu"
+      }
+    },
+    "80_20": {
+      "ranking": [
+        {
+          "arch": "vgg19",
+          "activation": "relu",
+          "val_f1": 0.9554802903260253,
+          "val_loss": 0.1577810958695632
+        },
+        {
+          "arch": "densenet121",
+          "activation": "gelu",
+          "val_f1": 0.9516863014853271,
+          "val_loss": 0.17860007099976385
+        },
+        {
+          "arch": "efficientnetb0",
+          "activation": "relu",
+          "val_f1": 0.9406517774318822,
+          "val_loss": 0.19987790156643068
+        },
+        {
+          "arch": "resnet50",
+          "activation": "relu",
+          "val_f1": 0.939184966137428,
+          "val_loss": 0.18843985126752794
+        },
+        {
+          "arch": "custom_cnn",
+          "activation": "gelu",
+          "val_f1": 0.7886953975147559,
+          "val_loss": 0.48946626769759793
+        }
+      ],
+      "top_two": [
+        "vgg19",
+        "densenet121"
+      ],
+      "extra_cv_needed": [
+        "vgg19"
+      ],
+      "third_place_gap_to_second": 0.01103452405344485,
+      "best_activation": {
+        "vgg19": "relu",
+        "densenet121": "gelu",
+        "efficientnetb0": "relu",
+        "resnet50": "relu",
+        "custom_cnn": "gelu"
+      }
+    },
+    "90_10": {
+      "ranking": [
+        {
+          "arch": "efficientnetb0",
+          "activation": "relu",
+          "val_f1": 0.9529043797129981,
+          "val_loss": 0.16354903713399116
+        },
+        {
+          "arch": "resnet50",
+          "activation": "relu",
+          "val_f1": 0.9407515791209518,
+          "val_loss": 0.19610500565587538
+        },
+        {
+          "arch": "vgg19",
+          "activation": "gelu",
+          "val_f1": 0.9252043964551223,
+          "val_loss": 0.2593584573016525
+        },
+        {
+          "arch": "densenet121",
+          "activation": "relu",
+          "val_f1": 0.9204608323775108,
+          "val_loss": 0.2048919972093013
+        },
+        {
+          "arch": "custom_cnn",
+          "activation": "gelu",
+          "val_f1": 0.8250679487374138,
+          "val_loss": 0.5031024392917537
+        }
+      ],
+      "top_two": [
+        "efficientnetb0",
+        "resnet50"
+      ],
+      "extra_cv_needed": [
+        "resnet50"
+      ],
+      "third_place_gap_to_second": 0.01554718266582944,
+      "best_activation": {
+        "efficientnetb0": "relu",
+        "resnet50": "relu",
+        "vgg19": "gelu",
+        "densenet121": "relu",
+        "custom_cnn": "gelu"
+      }
+    }
+  }
+}

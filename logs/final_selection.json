@@ -1,0 +1,113 @@
+{
+  "locked_before_test": true,
+  "written_at": "2026-11-15 05:05:14",
+  "rules": {
+    "architecture": "higher mean CV macro-F1 over the 3 splits; if the difference < mean fold SD: lower mean CV gap if the gap difference >= 0.01, else fewer parameters",
+    "split": "among splits with mean CV macro-F1 within one fold SD (of the best split) of the best: the largest training portion",
+    "activation": "the activation used in the CV of that (architecture, split)",
+    "best_activation_overall": "declared only if |mean paired Stage G delta macro-F1| >= 0.02 AND the winner takes >= 11 of 15 pairs; else no winner",
+    "best_generalisation": "lowest mean Stage G train-val gap among architectures with mean val F1 within 0.05 of the best; also reported for CV",
+    "best_efficiency": "lowest GPU batch-1 latency among architectures with mean Stage G val F1 within 0.02 of the best",
+    "caveats": [
+      "CV used one activation per split",
+      "split choice is confounded with training-set size",
+      "CV nested test sets are not independent",
+      "only EfficientNetB0 and DenseNet121 have CV evidence"
+    ]
+  },
+  "architecture_stats": [
+    {
+      "arch": "densenet121",
+      "mean_f1": 0.9247821027358123,
+      "mean_sd": 0.015093473519840557,
+      "mean_gap": 0.05510704418905757,
+      "params_M": 7.300932
+    },
+    {
+      "arch": "efficientnetb0",
+      "mean_f1": 0.908948522492894,
+      "mean_sd": 0.01668616908568757,
+      "mean_gap": 0.07658465389217556,
+      "params_M": 4.378535
+    }
+  ],
+  "stage_g_stats": [
+    {
+      "arch": "custom_cnn",
+      "mean_f1": 0.7897208194395416,
+      "mean_gap": 0.05567817486847668,
+      "params_M": 6.813508,
+      "train_min": 4.7247824168972175,
+      "latency_ms": 1.60581891699015
+    },
+    {
+      "arch": "resnet50",
+      "mean_f1": 0.9314255786090199,
+      "mean_gap": 0.0351400571294535,
+      "params_M": 24.113284,
+      "train_min": 3.6470528596027587,
+      "latency_ms": 8.36282866627395
+    },
+    {
+      "arch": "vgg19",
+      "mean_f1": 0.9312337932164813,
+      "mean_gap": 0.05367931048397522,
+      "params_M": 20.15674,
+      "train_min": 3.28037635881112,
+      "latency_ms": 4.690613583231122
+    },
+    {
+      "arch": "densenet121",
+      "mean_f1": 0.9282240824840938,
+      "mean_gap": 0.046579864244732795,
+      "params_M": 7.300932,
+      "train_min": 5.458756603425001,
+      "latency_ms": 16.840139666631632
+    },
+    {
+      "arch": "efficientnetb0",
+      "mean_f1": 0.9275373987229333,
+      "mean_gap": 0.06351817965707592,
+      "params_M": 4.378535,
+      "train_min": 3.474530021569454,
+      "latency_ms": 9.364983000068605
+    }
+  ],
+  "final_model": {
+    "arch": "densenet121",
+    "split": "90_10",
+    "activation": "relu",
+    "why_architecture": "F1 difference 0.0158 < fold SD 0.0159 (tie); lower generalisation gap decides (-0.0215)",
+    "why_split": "splits within one SD of the best: ['70_30', '80_20', '90_10']; largest training portion chosen"
+  },
+  "awards": {
+    "best_performing_validation": "resnet50",
+    "best_performing_cv": "densenet121",
+    "best_generalisation_validation": "resnet50",
+    "best_generalisation_cv": "densenet121",
+    "best_efficiency": "vgg19",
+    "best_activation": "no winner (no detectable difference)",
+    "activation_stats": {
+      "mean_delta_f1_gelu_minus_relu": 0.003112710129150172,
+      "gelu_wins": 6,
+      "relu_wins": 9,
+      "n_pairs": 15
+    },
+    "best_two_per_split": {
+      "70_30": [
+        "vgg19",
+        "resnet50"
+      ],
+      "80_20": [
+        "vgg19",
+        "densenet121"
+      ],
+      "90_10": [
+        "efficientnetb0",
+        "resnet50"
+      ]
+    },
+    "best_split_for_final_architecture": "80_20"
+  },
+  "test_sets_accessed_before_this_file": false
+}

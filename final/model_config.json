@@ -1,0 +1,69 @@
+{
+  "architecture": "densenet121",
+  "display_name": "DenseNet121",
+  "activation_in_head": "relu",
+  "trained_on_split": "90_10",
+  "seed": 42,
+  "hyperparameters_training": {
+    "batch_size": 16,
+    "dropout": 0.5,
+    "head_units": 256,
+    "weight_decay": 0.0001,
+    "lr_head": 0.0003,
+    "lr_ft": 0.0001,
+    "unfreeze_frac": 0.5,
+    "epochs_head": 10,
+    "epochs_ft": 30,
+    "patience_head": 4,
+    "patience": 6,
+    "rlrop_factor": 0.5,
+    "rlrop_patience": 3,
+    "min_lr": 1e-07,
+    "aug": "conservative",
+    "use_class_weights": true
+  },
+  "hyperparameters_inference_copy": {
+    "batch_size": 16,
+    "dropout": 0.5,
+    "head_units": 256,
+    "weight_decay": 0.0001,
+    "lr_head": 0.0003,
+    "lr_ft": 0.0001,
+    "unfreeze_frac": 0.5,
+    "epochs_head": 10,
+    "epochs_ft": 30,
+    "patience_head": 4,
+    "patience": 6,
+    "rlrop_factor": 0.5,
+    "rlrop_patience": 3,
+    "min_lr": 1e-07,
+    "aug": "none",
+    "use_class_weights": true
+  },
+  "params": {
+    "1": {
+      "total": 7300932,
+      "trainable": 263428,
+      "non_trainable": 7037504
+    },
+    "2": {
+      "total": 7300932,
+      "trainable": 4838660,
+      "non_trainable": 2462272
+    }
+  },
+  "epochs_run": 24,
+  "train_time_s": 328.863823961,
+  "latency_ms_bs1_gpu": 15.397224000025744,
+  "augmentation_during_training": "conservative",
+  "selection": {
+    "arch": "densenet121",
+    "split": "90_10",
+    "activation": "relu",
+    "why_architecture": "F1 difference 0.0158 < fold SD 0.0159 (tie); lower generalisation gap decides (-0.0215)",
+    "why_split": "splits within one SD of the best: ['70_30', '80_20', '90_10']; largest training portion chosen"
+  },
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "saved_at": "2026-11-15 06:14:21"
+}

@@ -1,0 +1,395 @@
+image_id,rel_path,class_name,orig_split,reason,kept_image_id
+349,Testing/pituitary_tumor/image(48).jpg,pituitary,Testing,exact_duplicate_redundant,348
+350,Testing/pituitary_tumor/image(49).jpg,pituitary,Testing,exact_duplicate_redundant,348
+2229,Training/no_tumor/image(206).jpg,no_tumor,Training,exact_duplicate_redundant,2227
+2288,Training/no_tumor/image(26).jpg,no_tumor,Training,exact_duplicate_redundant,266
+1462,Training/meningioma_tumor/m1(139).jpg,meningioma,Training,exact_duplicate_redundant,136
+2395,Training/no_tumor/image(61).jpg,no_tumor,Training,exact_duplicate_redundant,304
+1510,Training/meningioma_tumor/m1(183).jpg,meningioma,Training,exact_duplicate_redundant,185
+610,Training/glioma_tumor/gg (294).jpg,glioma,Training,exact_duplicate_redundant,604
+2281,Training/no_tumor/image(253).jpg,no_tumor,Training,exact_duplicate_redundant,2276
+1492,Training/meningioma_tumor/m1(167).jpg,meningioma,Training,exact_duplicate_redundant,167
+2096,Training/no_tumor/image (54).jpg,no_tumor,Training,exact_duplicate_redundant,224
+2144,Training/no_tumor/image(13).jpg,no_tumor,Training,exact_duplicate_redundant,251
+1542,Training/meningioma_tumor/m1(3).jpg,meningioma,Training,exact_duplicate_redundant,207
+2300,Training/no_tumor/image(270).jpg,no_tumor,Training,exact_duplicate_redundant,220
+1455,Training/meningioma_tumor/m1(132).jpg,meningioma,Training,exact_duplicate_redundant,129
+1615,Training/meningioma_tumor/m1(96).jpg,meningioma,Training,exact_duplicate_redundant,109
+2095,Training/no_tumor/image (53).jpg,no_tumor,Training,exact_duplicate_redundant,223
+387,Testing/pituitary_tumor/image(93).jpg,pituitary,Testing,exact_duplicate_redundant,386
+390,Testing/pituitary_tumor/image(96).jpg,pituitary,Testing,exact_duplicate_redundant,386
+391,Testing/pituitary_tumor/image(97).jpg,pituitary,Testing,exact_duplicate_redundant,386
+1433,Training/meningioma_tumor/m1(111).jpg,meningioma,Training,exact_duplicate_redundant,126
+1469,Training/meningioma_tumor/m1(145).jpg,meningioma,Training,exact_duplicate_redundant,143
+1511,Training/meningioma_tumor/m1(184).jpg,meningioma,Training,exact_duplicate_redundant,186
+2469,Training/pituitary_tumor/p (128).jpg,pituitary,Training,exact_duplicate_redundant,324
+2467,Training/pituitary_tumor/p (126).jpg,pituitary,Training,exact_duplicate_redundant,322
+290,Testing/no_tumor/image(73).jpg,no_tumor,Testing,exact_duplicate_redundant,237
+2111,Training/no_tumor/image(1).jpg,no_tumor,Training,exact_duplicate_redundant,237
+2380,Training/no_tumor/image(48).jpg,no_tumor,Training,exact_duplicate_redundant,237
+1526,Training/meningioma_tumor/m1(198).jpg,meningioma,Training,exact_duplicate_redundant,201
+2087,Training/no_tumor/image (46).jpg,no_tumor,Training,exact_duplicate_redundant,264
+284,Testing/no_tumor/image(68).jpg,no_tumor,Testing,exact_duplicate_redundant,244
+2375,Training/no_tumor/image(43).jpg,no_tumor,Training,exact_duplicate_redundant,244
+1614,Training/meningioma_tumor/m1(95).jpg,meningioma,Training,exact_duplicate_redundant,108
+1486,Training/meningioma_tumor/m1(160).jpg,meningioma,Training,exact_duplicate_redundant,160
+1442,Training/meningioma_tumor/m1(120).jpg,meningioma,Training,exact_duplicate_redundant,101
+1522,Training/meningioma_tumor/m1(194).jpg,meningioma,Training,exact_duplicate_redundant,197
+1458,Training/meningioma_tumor/m1(135).jpg,meningioma,Training,exact_duplicate_redundant,132
+2382,Training/no_tumor/image(5).jpg,no_tumor,Training,exact_duplicate_redundant,241
+780,Training/glioma_tumor/gg (447).jpg,glioma,Training,exact_duplicate_redundant,57
+2164,Training/no_tumor/image(148).jpg,no_tumor,Training,exact_duplicate_redundant,2161
+303,Testing/no_tumor/image(85).jpg,no_tumor,Testing,exact_duplicate_redundant,222
+2094,Training/no_tumor/image (52).jpg,no_tumor,Training,exact_duplicate_redundant,222
+2394,Training/no_tumor/image(60).jpg,no_tumor,Training,exact_duplicate_redundant,222
+1421,Training/meningioma_tumor/m1(100).jpg,meningioma,Training,exact_duplicate_redundant,204
+1530,Training/meningioma_tumor/m1(200).jpg,meningioma,Training,exact_duplicate_redundant,204
+1447,Training/meningioma_tumor/m1(125).jpg,meningioma,Training,exact_duplicate_redundant,121
+1523,Training/meningioma_tumor/m1(195).jpg,meningioma,Training,exact_duplicate_redundant,198
+2100,Training/no_tumor/image (58).jpg,no_tumor,Training,exact_duplicate_redundant,228
+1483,Training/meningioma_tumor/m1(158).jpg,meningioma,Training,exact_duplicate_redundant,157
+3146,Training/pituitary_tumor/p (738).jpg,pituitary,Training,exact_duplicate_redundant,3145
+1490,Training/meningioma_tumor/m1(165).jpg,meningioma,Training,exact_duplicate_redundant,165
+1611,Training/meningioma_tumor/m1(92).jpg,meningioma,Training,exact_duplicate_redundant,106
+1439,Training/meningioma_tumor/m1(118).jpg,meningioma,Training,exact_duplicate_redundant,192
+99,Testing/glioma_tumor/image.jpg,glioma,Testing,exact_duplicate_redundant,0
+1420,Training/meningioma_tumor/m1(10).jpg,meningioma,Training,exact_duplicate_redundant,102
+2401,Training/no_tumor/image(67).jpg,no_tumor,Training,exact_duplicate_redundant,311
+2261,Training/no_tumor/image(235).jpg,no_tumor,Training,exact_duplicate_redundant,2235
+1481,Training/meningioma_tumor/m1(156).jpg,meningioma,Training,exact_duplicate_redundant,155
+1441,Training/meningioma_tumor/m1(12).jpg,meningioma,Training,exact_duplicate_redundant,103
+246,Testing/no_tumor/image(33).jpg,no_tumor,Testing,exact_duplicate_redundant,216
+282,Testing/no_tumor/image(66).jpg,no_tumor,Testing,exact_duplicate_redundant,216
+299,Testing/no_tumor/image(81).jpg,no_tumor,Testing,exact_duplicate_redundant,216
+2093,Training/no_tumor/image (51).jpg,no_tumor,Training,exact_duplicate_redundant,216
+2373,Training/no_tumor/image(41).jpg,no_tumor,Training,exact_duplicate_redundant,216
+2389,Training/no_tumor/image(56).jpg,no_tumor,Training,exact_duplicate_redundant,216
+2415,Training/no_tumor/image(8).jpg,no_tumor,Training,exact_duplicate_redundant,216
+1499,Training/meningioma_tumor/m1(173).jpg,meningioma,Training,exact_duplicate_redundant,174
+1516,Training/meningioma_tumor/m1(189).jpg,meningioma,Training,exact_duplicate_redundant,191
+1449,Training/meningioma_tumor/m1(127).jpg,meningioma,Training,exact_duplicate_redundant,123
+2406,Training/no_tumor/image(71).jpg,no_tumor,Training,exact_duplicate_redundant,315
+380,Testing/pituitary_tumor/image(86).jpg,pituitary,Testing,exact_duplicate_redundant,379
+393,Testing/pituitary_tumor/image.jpg,pituitary,Testing,exact_duplicate_redundant,379
+2960,Training/pituitary_tumor/p (570).jpg,pituitary,Training,exact_duplicate_redundant,379
+280,Testing/no_tumor/image(64).jpg,no_tumor,Testing,exact_duplicate_redundant,245
+2370,Training/no_tumor/image(39).jpg,no_tumor,Training,exact_duplicate_redundant,245
+2404,Training/no_tumor/image(7).jpg,no_tumor,Training,exact_duplicate_redundant,245
+2372,Training/no_tumor/image(40).jpg,no_tumor,Training,exact_duplicate_redundant,281
+1434,Training/meningioma_tumor/m1(112).jpg,meningioma,Training,exact_duplicate_redundant,137
+2597,Training/pituitary_tumor/p (243).jpg,pituitary,Training,exact_duplicate_redundant,2596
+1519,Training/meningioma_tumor/m1(191).jpg,meningioma,Training,exact_duplicate_redundant,194
+327,Testing/pituitary_tumor/image(2).jpg,pituitary,Testing,exact_duplicate_redundant,320
+334,Testing/pituitary_tumor/image(3).jpg,pituitary,Testing,exact_duplicate_redundant,320
+1846,Training/meningioma_tumor/m3 (145).jpg,meningioma,Training,exact_duplicate_redundant,104
+373,Testing/pituitary_tumor/image(77).jpg,pituitary,Testing,exact_duplicate_redundant,372
+374,Testing/pituitary_tumor/image(78).jpg,pituitary,Testing,exact_duplicate_redundant,372
+2953,Training/pituitary_tumor/p (564).jpg,pituitary,Training,exact_duplicate_redundant,372
+2381,Training/no_tumor/image(49).jpg,no_tumor,Training,exact_duplicate_redundant,291
+2312,Training/no_tumor/image(281).jpg,no_tumor,Training,exact_duplicate_redundant,2306
+263,Testing/no_tumor/image(49).jpg,no_tumor,Testing,exact_duplicate_redundant,226
+268,Testing/no_tumor/image(53).jpg,no_tumor,Testing,exact_duplicate_redundant,226
+283,Testing/no_tumor/image(67).jpg,no_tumor,Testing,exact_duplicate_redundant,226
+302,Testing/no_tumor/image(84).jpg,no_tumor,Testing,exact_duplicate_redundant,226
+2098,Training/no_tumor/image (56).jpg,no_tumor,Training,exact_duplicate_redundant,226
+2266,Training/no_tumor/image(24).jpg,no_tumor,Training,exact_duplicate_redundant,226
+2310,Training/no_tumor/image(28).jpg,no_tumor,Training,exact_duplicate_redundant,226
+2374,Training/no_tumor/image(42).jpg,no_tumor,Training,exact_duplicate_redundant,226
+2392,Training/no_tumor/image(59).jpg,no_tumor,Training,exact_duplicate_redundant,226
+1489,Training/meningioma_tumor/m1(163).jpg,meningioma,Training,exact_duplicate_redundant,163
+2664,Training/pituitary_tumor/p (303).jpg,pituitary,Training,exact_duplicate_redundant,2663
+2104,Training/no_tumor/image (61).jpg,no_tumor,Training,exact_duplicate_redundant,232
+1205,Training/glioma_tumor/gg (86).jpg,glioma,Training,exact_duplicate_redundant,400
+1425,Training/meningioma_tumor/m1(104).jpg,meningioma,Training,exact_duplicate_redundant,113
+586,Training/glioma_tumor/gg (272).jpg,glioma,Training,exact_duplicate_redundant,585
+1443,Training/meningioma_tumor/m1(121).jpg,meningioma,Training,exact_duplicate_redundant,107
+2121,Training/no_tumor/image(108).jpg,no_tumor,Training,exact_duplicate_redundant,2116
+1505,Training/meningioma_tumor/m1(179).jpg,meningioma,Training,exact_duplicate_redundant,180
+1060,Training/glioma_tumor/gg (7).jpg,glioma,Training,exact_duplicate_redundant,72
+173,Testing/meningioma_tumor/image(62).jpg,meningioma,Testing,exact_duplicate_redundant,171
+1496,Training/meningioma_tumor/m1(170).jpg,meningioma,Training,exact_duplicate_redundant,171
+1498,Training/meningioma_tumor/m1(172).jpg,meningioma,Training,exact_duplicate_redundant,171
+2297,Training/no_tumor/image(268).jpg,no_tumor,Training,exact_duplicate_redundant,219
+2361,Training/no_tumor/image(325).jpg,no_tumor,Training,exact_duplicate_redundant,318
+1479,Training/meningioma_tumor/m1(154).jpg,meningioma,Training,exact_duplicate_redundant,153
+1494,Training/meningioma_tumor/m1(169).jpg,meningioma,Training,exact_duplicate_redundant,169
+1524,Training/meningioma_tumor/m1(196).jpg,meningioma,Training,exact_duplicate_redundant,199
+1209,Training/glioma_tumor/gg (9).jpg,glioma,Training,exact_duplicate_redundant,73
+2379,Training/no_tumor/image(47).jpg,no_tumor,Training,exact_duplicate_redundant,289
+2295,Training/no_tumor/image(266).jpg,no_tumor,Training,exact_duplicate_redundant,217
+1004,Training/glioma_tumor/gg (649).jpg,glioma,Training,exact_duplicate_redundant,982
+2402,Training/no_tumor/image(68).jpg,no_tumor,Training,exact_duplicate_redundant,312
+365,Testing/pituitary_tumor/image(66).jpg,pituitary,Testing,exact_duplicate_redundant,364
+2085,Training/no_tumor/image (44).jpg,no_tumor,Training,exact_duplicate_redundant,242
+1868,Training/meningioma_tumor/m3 (165).jpg,meningioma,Training,exact_duplicate_redundant,1867
+1608,Training/meningioma_tumor/m1(9).jpg,meningioma,Training,exact_duplicate_redundant,213
+3194,Training/pituitary_tumor/p (781).jpg,pituitary,Training,exact_duplicate_redundant,3193
+69,Testing/glioma_tumor/image(71).jpg,glioma,Testing,exact_duplicate_redundant,68
+1144,Training/glioma_tumor/gg (775).jpg,glioma,Training,exact_duplicate_redundant,68
+3162,Training/pituitary_tumor/p (752).jpg,pituitary,Training,exact_duplicate_redundant,3161
+2201,Training/no_tumor/image(181).jpg,no_tumor,Training,exact_duplicate_redundant,2153
+363,Testing/pituitary_tumor/image(64).jpg,pituitary,Testing,exact_duplicate_redundant,362
+2302,Training/no_tumor/image(272).jpg,no_tumor,Training,exact_duplicate_redundant,221
+1485,Training/meningioma_tumor/m1(16).jpg,meningioma,Training,exact_duplicate_redundant,1474
+2097,Training/no_tumor/image (55).jpg,no_tumor,Training,exact_duplicate_redundant,225
+359,Testing/pituitary_tumor/image(6).jpg,pituitary,Testing,exact_duplicate_redundant,351
+2465,Training/pituitary_tumor/p (124).jpg,pituitary,Training,exact_duplicate_redundant,351
+1446,Training/meningioma_tumor/m1(124).jpg,meningioma,Training,exact_duplicate_redundant,120
+2607,Training/pituitary_tumor/p (252).jpg,pituitary,Training,exact_duplicate_redundant,2606
+2309,Training/no_tumor/image(279).jpg,no_tumor,Training,exact_duplicate_redundant,2280
+1178,Training/glioma_tumor/gg (805).jpg,glioma,Training,exact_duplicate_redundant,71
+505,Training/glioma_tumor/gg (2).jpg,glioma,Training,exact_duplicate_redundant,424
+2969,Training/pituitary_tumor/p (579).jpg,pituitary,Training,exact_duplicate_redundant,2968
+2971,Training/pituitary_tumor/p (580).jpg,pituitary,Training,exact_duplicate_redundant,2968
+328,Testing/pituitary_tumor/image(20).jpg,pituitary,Testing,exact_duplicate_redundant,326
+329,Testing/pituitary_tumor/image(21).jpg,pituitary,Testing,exact_duplicate_redundant,326
+2472,Training/pituitary_tumor/p (130).jpg,pituitary,Training,exact_duplicate_redundant,326
+2594,Training/pituitary_tumor/p (240).jpg,pituitary,Training,exact_duplicate_redundant,2483
+1430,Training/meningioma_tumor/m1(109).jpg,meningioma,Training,exact_duplicate_redundant,214
+96,Testing/glioma_tumor/image(97).jpg,glioma,Testing,exact_duplicate_redundant,19
+1453,Training/meningioma_tumor/m1(130).jpg,meningioma,Training,exact_duplicate_redundant,127
+2119,Training/no_tumor/image(106).jpg,no_tumor,Training,exact_duplicate_redundant,2114
+1465,Training/meningioma_tumor/m1(141).jpg,meningioma,Training,exact_duplicate_redundant,139
+51,Testing/glioma_tumor/image(55).jpg,glioma,Testing,exact_duplicate_redundant,46
+1468,Training/meningioma_tumor/m1(144).jpg,meningioma,Training,exact_duplicate_redundant,142
+2279,Training/no_tumor/image(251).jpg,no_tumor,Training,exact_duplicate_redundant,2196
+1508,Training/meningioma_tumor/m1(181).jpg,meningioma,Training,exact_duplicate_redundant,183
+2173,Training/no_tumor/image(156).jpg,no_tumor,Training,exact_duplicate_redundant,2159
+2408,Training/no_tumor/image(73).jpg,no_tumor,Training,exact_duplicate_redundant,2159
+2411,Training/no_tumor/image(76).jpg,no_tumor,Training,exact_duplicate_redundant,2159
+1460,Training/meningioma_tumor/m1(137).jpg,meningioma,Training,exact_duplicate_redundant,134
+83,Testing/glioma_tumor/image(84).jpg,glioma,Testing,exact_duplicate_redundant,24
+1491,Training/meningioma_tumor/m1(166).jpg,meningioma,Training,exact_duplicate_redundant,166
+1609,Training/meningioma_tumor/m1(90).jpg,meningioma,Training,exact_duplicate_redundant,105
+977,Training/glioma_tumor/gg (624).jpg,glioma,Training,exact_duplicate_redundant,64
+1461,Training/meningioma_tumor/m1(138).jpg,meningioma,Training,exact_duplicate_redundant,135
+287,Testing/no_tumor/image(70).jpg,no_tumor,Testing,exact_duplicate_redundant,236
+2377,Training/no_tumor/image(45).jpg,no_tumor,Training,exact_duplicate_redundant,236
+2436,Training/no_tumor/image.jpg,no_tumor,Training,exact_duplicate_redundant,236
+1471,Training/meningioma_tumor/m1(147).jpg,meningioma,Training,exact_duplicate_redundant,145
+2405,Training/no_tumor/image(70).jpg,no_tumor,Training,exact_duplicate_redundant,314
+389,Testing/pituitary_tumor/image(95).jpg,pituitary,Testing,exact_duplicate_redundant,388
+2385,Training/no_tumor/image(52).jpg,no_tumor,Training,exact_duplicate_redundant,294
+2344,Training/no_tumor/image(31).jpg,no_tumor,Training,exact_duplicate_redundant,271
+2396,Training/no_tumor/image(62).jpg,no_tumor,Training,exact_duplicate_redundant,305
+2123,Training/no_tumor/image(110).jpg,no_tumor,Training,exact_duplicate_redundant,2118
+62,Testing/glioma_tumor/image(65).jpg,glioma,Testing,exact_duplicate_redundant,61
+693,Training/glioma_tumor/gg (369).jpg,glioma,Training,exact_duplicate_redundant,61
+1467,Training/meningioma_tumor/m1(143).jpg,meningioma,Training,exact_duplicate_redundant,141
+488,Training/glioma_tumor/gg (184).jpg,glioma,Training,exact_duplicate_redundant,464
+2155,Training/no_tumor/image(14).jpg,no_tumor,Training,exact_duplicate_redundant,252
+2476,Training/pituitary_tumor/p (134).jpg,pituitary,Training,exact_duplicate_redundant,335
+1480,Training/meningioma_tumor/m1(155).jpg,meningioma,Training,exact_duplicate_redundant,154
+296,Testing/no_tumor/image(79).jpg,no_tumor,Testing,exact_duplicate_redundant,250
+2133,Training/no_tumor/image(12).jpg,no_tumor,Training,exact_duplicate_redundant,250
+2387,Training/no_tumor/image(54).jpg,no_tumor,Training,exact_duplicate_redundant,250
+56,Testing/glioma_tumor/image(6).jpg,glioma,Testing,exact_duplicate_redundant,23
+2955,Training/pituitary_tumor/p (566).jpg,pituitary,Training,exact_duplicate_redundant,2954
+2956,Training/pituitary_tumor/p (567).jpg,pituitary,Training,exact_duplicate_redundant,2954
+2957,Training/pituitary_tumor/p (568).jpg,pituitary,Training,exact_duplicate_redundant,2954
+1527,Training/meningioma_tumor/m1(199).jpg,meningioma,Training,exact_duplicate_redundant,202
+346,Testing/pituitary_tumor/image(45).jpg,pituitary,Testing,exact_duplicate_redundant,345
+347,Testing/pituitary_tumor/image(46).jpg,pituitary,Testing,exact_duplicate_redundant,345
+2265,Training/no_tumor/image(239).jpg,no_tumor,Training,exact_duplicate_redundant,2182
+2368,Training/no_tumor/image(37).jpg,no_tumor,Training,exact_duplicate_redundant,278
+1438,Training/meningioma_tumor/m1(117).jpg,meningioma,Training,exact_duplicate_redundant,181
+333,Testing/pituitary_tumor/image(28).jpg,pituitary,Testing,exact_duplicate_redundant,332
+1168,Training/glioma_tumor/gg (797).jpg,glioma,Training,exact_duplicate_redundant,70
+1476,Training/meningioma_tumor/m1(151).jpg,meningioma,Training,exact_duplicate_redundant,150
+94,Testing/glioma_tumor/image(94).jpg,glioma,Testing,exact_duplicate_redundant,93
+1597,Training/meningioma_tumor/m1(8).jpg,meningioma,Training,exact_duplicate_redundant,212
+1484,Training/meningioma_tumor/m1(159).jpg,meningioma,Training,exact_duplicate_redundant,158
+2090,Training/no_tumor/image (49).jpg,no_tumor,Training,exact_duplicate_redundant,297
+2336,Training/no_tumor/image(302).jpg,no_tumor,Training,exact_duplicate_redundant,2186
+259,Testing/no_tumor/image(45).jpg,no_tumor,Testing,exact_duplicate_redundant,227
+270,Testing/no_tumor/image(55).jpg,no_tumor,Testing,exact_duplicate_redundant,227
+276,Testing/no_tumor/image(60).jpg,no_tumor,Testing,exact_duplicate_redundant,227
+2099,Training/no_tumor/image (57).jpg,no_tumor,Training,exact_duplicate_redundant,227
+2222,Training/no_tumor/image(20).jpg,no_tumor,Training,exact_duplicate_redundant,227
+2333,Training/no_tumor/image(30).jpg,no_tumor,Training,exact_duplicate_redundant,227
+2366,Training/no_tumor/image(35).jpg,no_tumor,Training,exact_duplicate_redundant,227
+355,Testing/pituitary_tumor/image(54).jpg,pituitary,Testing,exact_duplicate_redundant,354
+356,Testing/pituitary_tumor/image(55).jpg,pituitary,Testing,exact_duplicate_redundant,354
+367,Testing/pituitary_tumor/image(68).jpg,pituitary,Testing,exact_duplicate_redundant,366
+2477,Training/pituitary_tumor/p (135).jpg,pituitary,Training,exact_duplicate_redundant,336
+3151,Training/pituitary_tumor/p (742).jpg,pituitary,Training,exact_duplicate_redundant,3150
+1473,Training/meningioma_tumor/m1(149).jpg,meningioma,Training,exact_duplicate_redundant,147
+2400,Training/no_tumor/image(66).jpg,no_tumor,Training,exact_duplicate_redundant,310
+2112,Training/no_tumor/image(10).jpg,no_tumor,Training,exact_duplicate_redundant,248
+2231,Training/no_tumor/image(208).jpg,no_tumor,Training,exact_duplicate_redundant,2216
+3244,Training/pituitary_tumor/p (826).jpg,pituitary,Training,exact_duplicate_redundant,3243
+4,Testing/glioma_tumor/image(12).jpg,glioma,Testing,exact_duplicate_redundant,3
+90,Testing/glioma_tumor/image(90).jpg,glioma,Testing,exact_duplicate_redundant,3
+1143,Training/glioma_tumor/gg (774).jpg,glioma,Training,exact_duplicate_redundant,66
+2369,Training/no_tumor/image(38).jpg,no_tumor,Training,exact_duplicate_redundant,279
+2101,Training/no_tumor/image (59).jpg,no_tumor,Training,exact_duplicate_redundant,229
+2089,Training/no_tumor/image (48).jpg,no_tumor,Training,exact_duplicate_redundant,286
+308,Testing/no_tumor/image(9).jpg,no_tumor,Testing,exact_duplicate_redundant,298
+2092,Training/no_tumor/image (50).jpg,no_tumor,Training,exact_duplicate_redundant,298
+2388,Training/no_tumor/image(55).jpg,no_tumor,Training,exact_duplicate_redundant,298
+1520,Training/meningioma_tumor/m1(192).jpg,meningioma,Training,exact_duplicate_redundant,195
+1456,Training/meningioma_tumor/m1(133).jpg,meningioma,Training,exact_duplicate_redundant,130
+339,Testing/pituitary_tumor/image(36).jpg,pituitary,Testing,exact_duplicate_redundant,338
+340,Testing/pituitary_tumor/image(37).jpg,pituitary,Testing,exact_duplicate_redundant,338
+2479,Training/pituitary_tumor/p (137).jpg,pituitary,Training,exact_duplicate_redundant,338
+2355,Training/no_tumor/image(32).jpg,no_tumor,Training,exact_duplicate_redundant,272
+2390,Training/no_tumor/image(57).jpg,no_tumor,Training,exact_duplicate_redundant,300
+1502,Training/meningioma_tumor/m1(176).jpg,meningioma,Training,exact_duplicate_redundant,177
+2206,Training/no_tumor/image(186).jpg,no_tumor,Training,exact_duplicate_redundant,2192
+2284,Training/no_tumor/image(256).jpg,no_tumor,Training,exact_duplicate_redundant,2192
+777,Training/glioma_tumor/gg (444).jpg,glioma,Training,exact_duplicate_redundant,55
+1488,Training/meningioma_tumor/m1(162).jpg,meningioma,Training,exact_duplicate_redundant,162
+2224,Training/no_tumor/image(201).jpg,no_tumor,Training,exact_duplicate_redundant,2187
+2188,Training/no_tumor/image(17).jpg,no_tumor,Training,exact_duplicate_redundant,256
+2318,Training/no_tumor/image(287).jpg,no_tumor,Training,exact_duplicate_redundant,2239
+1575,Training/meningioma_tumor/m1(6).jpg,meningioma,Training,exact_duplicate_redundant,210
+2332,Training/no_tumor/image(3).jpg,no_tumor,Training,exact_duplicate_redundant,239
+1141,Training/glioma_tumor/gg (772).jpg,glioma,Training,exact_duplicate_redundant,65
+2391,Training/no_tumor/image(58).jpg,no_tumor,Training,exact_duplicate_redundant,301
+1497,Training/meningioma_tumor/m1(171).jpg,meningioma,Training,exact_duplicate_redundant,172
+1131,Training/glioma_tumor/gg (763).jpg,glioma,Training,exact_duplicate_redundant,1130
+2362,Training/no_tumor/image(326).jpg,no_tumor,Training,exact_duplicate_redundant,218
+277,Testing/no_tumor/image(61).jpg,no_tumor,Testing,exact_duplicate_redundant,234
+288,Testing/no_tumor/image(71).jpg,no_tumor,Testing,exact_duplicate_redundant,234
+2106,Training/no_tumor/image (63).jpg,no_tumor,Training,exact_duplicate_redundant,234
+2367,Training/no_tumor/image(36).jpg,no_tumor,Training,exact_duplicate_redundant,234
+2378,Training/no_tumor/image(46).jpg,no_tumor,Training,exact_duplicate_redundant,234
+2242,Training/no_tumor/image(218).jpg,no_tumor,Training,exact_duplicate_redundant,2236
+2397,Training/no_tumor/image(63).jpg,no_tumor,Training,exact_duplicate_redundant,306
+1437,Training/meningioma_tumor/m1(116).jpg,meningioma,Training,exact_duplicate_redundant,170
+1531,Training/meningioma_tumor/m1(201).jpg,meningioma,Training,exact_duplicate_redundant,205
+376,Testing/pituitary_tumor/image(8).jpg,pituitary,Testing,exact_duplicate_redundant,369
+2082,Training/no_tumor/image (41).jpg,no_tumor,Training,exact_duplicate_redundant,319
+2165,Training/no_tumor/image(149).jpg,no_tumor,Training,exact_duplicate_redundant,2160
+2178,Training/no_tumor/image(160).jpg,no_tumor,Training,exact_duplicate_redundant,2160
+1451,Training/meningioma_tumor/m1(129).jpg,meningioma,Training,exact_duplicate_redundant,125
+1435,Training/meningioma_tumor/m1(113).jpg,meningioma,Training,exact_duplicate_redundant,148
+1312,Training/meningioma_tumor/m (183).jpg,meningioma,Training,exact_duplicate_redundant,1311
+1504,Training/meningioma_tumor/m1(178).jpg,meningioma,Training,exact_duplicate_redundant,179
+2412,Training/no_tumor/image(77).jpg,no_tumor,Training,exact_duplicate_redundant,2175
+1475,Training/meningioma_tumor/m1(150).jpg,meningioma,Training,exact_duplicate_redundant,149
+2210,Training/no_tumor/image(19).jpg,no_tumor,Training,exact_duplicate_redundant,258
+2780,Training/pituitary_tumor/p (408).jpg,pituitary,Training,exact_duplicate_redundant,2779
+1518,Training/meningioma_tumor/m1(190).jpg,meningioma,Training,exact_duplicate_redundant,193
+2384,Training/no_tumor/image(51).jpg,no_tumor,Training,exact_duplicate_redundant,293
+1521,Training/meningioma_tumor/m1(193).jpg,meningioma,Training,exact_duplicate_redundant,196
+2221,Training/no_tumor/image(2).jpg,no_tumor,Training,exact_duplicate_redundant,238
+657,Training/glioma_tumor/gg (336).jpg,glioma,Training,exact_duplicate_redundant,656
+1528,Training/meningioma_tumor/m1(2).jpg,meningioma,Training,exact_duplicate_redundant,206
+1532,Training/meningioma_tumor/m1(202).jpg,meningioma,Training,exact_duplicate_redundant,206
+1470,Training/meningioma_tumor/m1(146).jpg,meningioma,Training,exact_duplicate_redundant,144
+2403,Training/no_tumor/image(69).jpg,no_tumor,Training,exact_duplicate_redundant,313
+1493,Training/meningioma_tumor/m1(168).jpg,meningioma,Training,exact_duplicate_redundant,168
+2199,Training/no_tumor/image(18).jpg,no_tumor,Training,exact_duplicate_redundant,257
+343,Testing/pituitary_tumor/image(42).jpg,pituitary,Testing,exact_duplicate_redundant,342
+344,Testing/pituitary_tumor/image(43).jpg,pituitary,Testing,exact_duplicate_redundant,342
+937,Training/glioma_tumor/gg (589).jpg,glioma,Training,exact_duplicate_redundant,63
+1007,Training/glioma_tumor/gg (651).jpg,glioma,Training,exact_duplicate_redundant,58
+2364,Training/no_tumor/image(33).jpg,no_tumor,Training,exact_duplicate_redundant,273
+1464,Training/meningioma_tumor/m1(140).jpg,meningioma,Training,exact_duplicate_redundant,138
+361,Testing/pituitary_tumor/image(61).jpg,pituitary,Testing,exact_duplicate_redundant,360
+1503,Training/meningioma_tumor/m1(177).jpg,meningioma,Training,exact_duplicate_redundant,178
+384,Testing/pituitary_tumor/image(90).jpg,pituitary,Testing,exact_duplicate_redundant,383
+385,Testing/pituitary_tumor/image(91).jpg,pituitary,Testing,exact_duplicate_redundant,383
+2468,Training/pituitary_tumor/p (127).jpg,pituitary,Training,exact_duplicate_redundant,323
+131,Testing/meningioma_tumor/image(24).jpg,meningioma,Testing,exact_duplicate_redundant,110
+1422,Training/meningioma_tumor/m1(101).jpg,meningioma,Training,exact_duplicate_redundant,110
+1457,Training/meningioma_tumor/m1(134).jpg,meningioma,Training,exact_duplicate_redundant,110
+1617,Training/meningioma_tumor/m1(98).jpg,meningioma,Training,exact_duplicate_redundant,110
+2371,Training/no_tumor/image(4).jpg,no_tumor,Training,exact_duplicate_redundant,240
+2103,Training/no_tumor/image (60).jpg,no_tumor,Training,exact_duplicate_redundant,230
+358,Testing/pituitary_tumor/image(57).jpg,pituitary,Testing,exact_duplicate_redundant,357
+2071,Training/no_tumor/image (31).jpg,no_tumor,Training,exact_duplicate_redundant,2047
+2480,Training/pituitary_tumor/p (138).jpg,pituitary,Training,exact_duplicate_redundant,371
+1500,Training/meningioma_tumor/m1(174).jpg,meningioma,Training,exact_duplicate_redundant,175
+1424,Training/meningioma_tumor/m1(103).jpg,meningioma,Training,exact_duplicate_redundant,112
+2122,Training/no_tumor/image(11).jpg,no_tumor,Training,exact_duplicate_redundant,249
+1069,Training/glioma_tumor/gg (707).jpg,glioma,Training,exact_duplicate_redundant,60
+285,Testing/no_tumor/image(69).jpg,no_tumor,Testing,exact_duplicate_redundant,233
+2105,Training/no_tumor/image (62).jpg,no_tumor,Training,exact_duplicate_redundant,233
+2376,Training/no_tumor/image(44).jpg,no_tumor,Training,exact_duplicate_redundant,233
+2545,Training/pituitary_tumor/p (197).jpg,pituitary,Training,exact_duplicate_redundant,2544
+1440,Training/meningioma_tumor/m1(119).jpg,meningioma,Training,exact_duplicate_redundant,203
+2054,Training/no_tumor/image (14).jpg,no_tumor,Training,exact_duplicate_redundant,2053
+2066,Training/no_tumor/image (26).jpg,no_tumor,Training,exact_duplicate_redundant,2053
+2273,Training/no_tumor/image(246).jpg,no_tumor,Training,exact_duplicate_redundant,2053
+2340,Training/no_tumor/image(306).jpg,no_tumor,Training,exact_duplicate_redundant,2053
+2107,Training/no_tumor/image (64).jpg,no_tumor,Training,exact_duplicate_redundant,235
+417,Training/glioma_tumor/gg (12).jpg,glioma,Training,exact_duplicate_redundant,74
+382,Testing/pituitary_tumor/image(88).jpg,pituitary,Testing,exact_duplicate_redundant,381
+292,Testing/no_tumor/image(75).jpg,no_tumor,Testing,exact_duplicate_redundant,262
+2255,Training/no_tumor/image(23).jpg,no_tumor,Training,exact_duplicate_redundant,262
+2383,Training/no_tumor/image(50).jpg,no_tumor,Training,exact_duplicate_redundant,262
+1429,Training/meningioma_tumor/m1(108).jpg,meningioma,Training,exact_duplicate_redundant,116
+1509,Training/meningioma_tumor/m1(182).jpg,meningioma,Training,exact_duplicate_redundant,184
+1514,Training/meningioma_tumor/m1(187).jpg,meningioma,Training,exact_duplicate_redundant,189
+1482,Training/meningioma_tumor/m1(157).jpg,meningioma,Training,exact_duplicate_redundant,156
+265,Testing/no_tumor/image(50).jpg,no_tumor,Testing,exact_duplicate_redundant,260
+269,Testing/no_tumor/image(54).jpg,no_tumor,Testing,exact_duplicate_redundant,260
+2233,Training/no_tumor/image(21).jpg,no_tumor,Training,exact_duplicate_redundant,260
+2277,Training/no_tumor/image(25).jpg,no_tumor,Training,exact_duplicate_redundant,260
+2321,Training/no_tumor/image(29).jpg,no_tumor,Training,exact_duplicate_redundant,260
+267,Testing/no_tumor/image(52).jpg,no_tumor,Testing,exact_duplicate_redundant,255
+2177,Training/no_tumor/image(16).jpg,no_tumor,Training,exact_duplicate_redundant,255
+2299,Training/no_tumor/image(27).jpg,no_tumor,Training,exact_duplicate_redundant,255
+1477,Training/meningioma_tumor/m1(152).jpg,meningioma,Training,exact_duplicate_redundant,151
+1525,Training/meningioma_tumor/m1(197).jpg,meningioma,Training,exact_duplicate_redundant,200
+2120,Training/no_tumor/image(107).jpg,no_tumor,Training,exact_duplicate_redundant,2115
+1428,Training/meningioma_tumor/m1(107).jpg,meningioma,Training,exact_duplicate_redundant,115
+2083,Training/no_tumor/image (42).jpg,no_tumor,Training,exact_duplicate_redundant,215
+1444,Training/meningioma_tumor/m1(122).jpg,meningioma,Training,exact_duplicate_redundant,111
+1448,Training/meningioma_tumor/m1(126).jpg,meningioma,Training,exact_duplicate_redundant,122
+79,Testing/glioma_tumor/image(80).jpg,glioma,Testing,exact_duplicate_redundant,75
+1512,Training/meningioma_tumor/m1(185).jpg,meningioma,Training,exact_duplicate_redundant,187
+98,Testing/glioma_tumor/image(99).jpg,glioma,Testing,exact_duplicate_redundant,97
+2393,Training/no_tumor/image(6).jpg,no_tumor,Training,exact_duplicate_redundant,243
+2398,Training/no_tumor/image(64).jpg,no_tumor,Training,exact_duplicate_redundant,307
+2056,Training/no_tumor/image (16).jpg,no_tumor,Training,exact_duplicate_redundant,2055
+1513,Training/meningioma_tumor/m1(186).jpg,meningioma,Training,exact_duplicate_redundant,188
+1553,Training/meningioma_tumor/m1(4).jpg,meningioma,Training,exact_duplicate_redundant,208
+2293,Training/no_tumor/image(264).jpg,no_tumor,Training,exact_duplicate_redundant,317
+1501,Training/meningioma_tumor/m1(175).jpg,meningioma,Training,exact_duplicate_redundant,176
+1454,Training/meningioma_tumor/m1(131).jpg,meningioma,Training,exact_duplicate_redundant,128
+22,Testing/glioma_tumor/image(29).jpg,glioma,Testing,exact_duplicate_redundant,21
+77,Testing/glioma_tumor/image(79).jpg,glioma,Testing,exact_duplicate_redundant,21
+2244,Training/no_tumor/image(22).jpg,no_tumor,Training,exact_duplicate_redundant,261
+370,Testing/pituitary_tumor/image(70).jpg,pituitary,Testing,exact_duplicate_redundant,368
+95,Testing/glioma_tumor/image(95).jpg,glioma,Testing,exact_duplicate_redundant,14
+2758,Training/pituitary_tumor/p (389).jpg,pituitary,Training,exact_duplicate_redundant,2757
+2172,Training/no_tumor/image(155).jpg,no_tumor,Training,exact_duplicate_redundant,2158
+2174,Training/no_tumor/image(157).jpg,no_tumor,Training,exact_duplicate_redundant,2158
+2086,Training/no_tumor/image (45).jpg,no_tumor,Training,exact_duplicate_redundant,253
+1445,Training/meningioma_tumor/m1(123).jpg,meningioma,Training,exact_duplicate_redundant,119
+2179,Training/no_tumor/image(161).jpg,no_tumor,Training,exact_duplicate_redundant,2170
+2185,Training/no_tumor/image(167).jpg,no_tumor,Training,exact_duplicate_redundant,2184
+2191,Training/no_tumor/image(172).jpg,no_tumor,Training,exact_duplicate_redundant,2184
+1450,Training/meningioma_tumor/m1(128).jpg,meningioma,Training,exact_duplicate_redundant,124
+1564,Training/meningioma_tumor/m1(5).jpg,meningioma,Training,exact_duplicate_redundant,209
+2291,Training/no_tumor/image(262).jpg,no_tumor,Training,exact_duplicate_redundant,316
+1466,Training/meningioma_tumor/m1(142).jpg,meningioma,Training,exact_duplicate_redundant,140
+2084,Training/no_tumor/image (43).jpg,no_tumor,Training,exact_duplicate_redundant,231
+2399,Training/no_tumor/image(65).jpg,no_tumor,Training,exact_duplicate_redundant,309
+2167,Training/no_tumor/image(150).jpg,no_tumor,Training,exact_duplicate_redundant,2162
+2407,Training/no_tumor/image(72).jpg,no_tumor,Training,exact_duplicate_redundant,2162
+2410,Training/no_tumor/image(75).jpg,no_tumor,Training,exact_duplicate_redundant,2162
+1478,Training/meningioma_tumor/m1(153).jpg,meningioma,Training,exact_duplicate_redundant,152
+1472,Training/meningioma_tumor/m1(148).jpg,meningioma,Training,exact_duplicate_redundant,146
+41,Testing/glioma_tumor/image(46).jpg,glioma,Testing,exact_duplicate_redundant,25
+2271,Training/no_tumor/image(244).jpg,no_tumor,Training,exact_duplicate_redundant,2237
+2166,Training/no_tumor/image(15).jpg,no_tumor,Training,exact_duplicate_redundant,254
+1008,Training/glioma_tumor/gg (652).jpg,glioma,Training,exact_duplicate_redundant,59
+352,Testing/pituitary_tumor/image(51).jpg,pituitary,Testing,exact_duplicate_redundant,341
+353,Testing/pituitary_tumor/image(52).jpg,pituitary,Testing,exact_duplicate_redundant,341
+1507,Training/meningioma_tumor/m1(180).jpg,meningioma,Training,exact_duplicate_redundant,182
+378,Testing/pituitary_tumor/image(82).jpg,pituitary,Testing,exact_duplicate_redundant,377
+1586,Training/meningioma_tumor/m1(7).jpg,meningioma,Training,exact_duplicate_redundant,211
+2426,Training/no_tumor/image(9).jpg,no_tumor,Training,exact_duplicate_redundant,247
+2223,Training/no_tumor/image(200).jpg,no_tumor,Training,exact_duplicate_redundant,2141
+331,Testing/pituitary_tumor/image(23).jpg,pituitary,Testing,exact_duplicate_redundant,330
+2473,Training/pituitary_tumor/p (131).jpg,pituitary,Training,exact_duplicate_redundant,330
+2088,Training/no_tumor/image (47).jpg,no_tumor,Training,exact_duplicate_redundant,275
+2365,Training/no_tumor/image(34).jpg,no_tumor,Training,exact_duplicate_redundant,274
+2190,Training/no_tumor/image(171).jpg,no_tumor,Training,exact_duplicate_redundant,295
+2264,Training/no_tumor/image(238).jpg,no_tumor,Training,exact_duplicate_redundant,295
+2324,Training/no_tumor/image(292).jpg,no_tumor,Training,exact_duplicate_redundant,295
+2386,Training/no_tumor/image(53).jpg,no_tumor,Training,exact_duplicate_redundant,295

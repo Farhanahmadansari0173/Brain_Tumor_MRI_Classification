@@ -1,0 +1,4 @@
+,accuracy,balanced_acc,macro_f1
+Majority class,0.309,0.25,0.118
+Metadata A (size/format),0.556,0.603,0.581
+Metadata B (+ intensity stats),0.672,0.705,0.683

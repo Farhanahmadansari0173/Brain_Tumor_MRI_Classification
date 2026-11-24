@@ -1,0 +1,24 @@
+{
+  "presets": {
+    "none": null,
+    "conservative": {
+      "rotation_deg": 10,
+      "zoom": 0.1,
+      "translate": 0.05,
+      "brightness": 0.1,
+      "contrast": 0.1,
+      "hflip": false
+    },
+    "conservative_hflip": {
+      "rotation_deg": 10,
+      "zoom": 0.1,
+      "translate": 0.05,
+      "brightness": 0.1,
+      "contrast": 0.1,
+      "hflip": true
+    }
+  },
+  "default": "conservative",
+  "notes": "Applied on-the-fly to TRAINING data only; black fill; brightness/contrast are multiplicative; no vertical flip.",
+  "implementation": "v2: GPU layer 'RandomAffineAugment' inside the model, active only when training=True; one fused resampling for rotation+zoom+translation, then multiplicative brightness/contrast"
+}

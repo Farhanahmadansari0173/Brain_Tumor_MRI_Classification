@@ -1,0 +1,185 @@
+{
+  "custom_cnn": {
+    "trial": 1,
+    "overrides": {
+      "lr": 0.0002,
+      "dropout": 0.5,
+      "conv_dropout": 0.0,
+      "weight_decay": 0.01,
+      "batch_size": 64
+    },
+    "reason": "trial 1 beats the default by +0.052 F1 (>= 0.02 margin)",
+    "val_f1": 0.7763674168590129,
+    "val_loss": 0.5692109103341233,
+    "val_acc": 0.7777777777777778,
+    "f1_range_over_trials": [
+      0.4889765305820547,
+      0.7763674168590129
+    ],
+    "full_hp": {
+      "batch_size": 64,
+      "dropout": 0.5,
+      "conv_dropout": 0.0,
+      "head_units": 128,
+      "weight_decay": 0.01,
+      "lr": 0.0002,
+      "epochs": 60,
+      "patience": 10,
+      "rlrop_factor": 0.5,
+      "rlrop_patience": 4,
+      "min_lr": 1e-07,
+      "aug": "conservative",
+      "use_class_weights": true,
+      "bn_momentum": 0.99,
+      "head_pool": "flatten"
+    }
+  },
+  "resnet50": {
+    "trial": 3,
+    "overrides": {
+      "lr_head": 0.003,
+      "lr_ft": 0.0001,
+      "dropout": 0.5,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "unfreeze_frac": 0.5
+    },
+    "reason": "trial 3 beats the default by +0.039 F1 (>= 0.02 margin)",
+    "val_f1": 0.9187121212121212,
+    "val_loss": 0.2724266974191708,
+    "val_acc": 0.9185185185185185,
+    "f1_range_over_trials": [
+      0.8581803997373627,
+      0.9190369719673988
+    ],
+    "full_hp": {
+      "batch_size": 32,
+      "dropout": 0.5,
+      "head_units": 256,
+      "weight_decay": 0.01,
+      "lr_head": 0.003,
+      "lr_ft": 0.0001,
+      "unfreeze_frac": 0.5,
+      "epochs_head": 10,
+      "epochs_ft": 30,
+      "patience_head": 4,
+      "patience": 6,
+      "rlrop_factor": 0.5,
+      "rlrop_patience": 3,
+      "min_lr": 1e-07,
+      "aug": "conservative",
+      "use_class_weights": true
+    }
+  },
+  "vgg19": {
+    "trial": 3,
+    "overrides": {
+      "lr_head": 0.0003,
+      "lr_ft": 3e-05,
+      "dropout": 0.3,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "unfreeze_frac": 0.5
+    },
+    "reason": "trial 3 beats the default by +0.063 F1 (>= 0.02 margin)",
+    "val_f1": 0.9135888818892444,
+    "val_loss": 0.2783394276501062,
+    "val_acc": 0.9185185185185185,
+    "f1_range_over_trials": [
+      0.8399547679861072,
+      0.9135888818892444
+    ],
+    "full_hp": {
+      "batch_size": 16,
+      "dropout": 0.3,
+      "head_units": 256,
+      "weight_decay": 0.01,
+      "lr_head": 0.0003,
+      "lr_ft": 3e-05,
+      "unfreeze_frac": 0.5,
+      "epochs_head": 10,
+      "epochs_ft": 30,
+      "patience_head": 4,
+      "patience": 6,
+      "rlrop_factor": 0.5,
+      "rlrop_patience": 3,
+      "min_lr": 1e-07,
+      "aug": "conservative",
+      "use_class_weights": true
+    }
+  },
+  "densenet121": {
+    "trial": 1,
+    "overrides": {
+      "lr_head": 0.0003,
+      "lr_ft": 0.0001,
+      "dropout": 0.5,
+      "weight_decay": 0.0001,
+      "batch_size": 16,
+      "unfreeze_frac": 0.5
+    },
+    "reason": "trial 1 beats the default by +0.056 F1 (>= 0.02 margin)",
+    "val_f1": 0.9155962984894108,
+    "val_loss": 0.2828944425960528,
+    "val_acc": 0.9259259259259259,
+    "f1_range_over_trials": [
+      0.806923358331809,
+      0.9155962984894108
+    ],
+    "full_hp": {
+      "batch_size": 16,
+      "dropout": 0.5,
+      "head_units": 256,
+      "weight_decay": 0.0001,
+      "lr_head": 0.0003,
+      "lr_ft": 0.0001,
+      "unfreeze_frac": 0.5,
+      "epochs_head": 10,
+      "epochs_ft": 30,
+      "patience_head": 4,
+      "patience": 6,
+      "rlrop_factor": 0.5,
+      "rlrop_patience": 3,
+      "min_lr": 1e-07,
+      "aug": "conservative",
+      "use_class_weights": true
+    }
+  },
+  "efficientnetb0": {
+    "trial": 5,
+    "overrides": {
+      "lr_head": 0.001,
+      "lr_ft": 0.0001,
+      "dropout": 0.5,
+      "weight_decay": 0.001,
+      "batch_size": 64,
+      "unfreeze_frac": 0.5
+    },
+    "reason": "trial 5 beats the default by +0.067 F1 (>= 0.02 margin)",
+    "val_f1": 0.9118844744042625,
+    "val_loss": 0.34137735679103104,
+    "val_acc": 0.9111111111111111,
+    "f1_range_over_trials": [
+      0.8149659157374043,
+      0.9118844744042625
+    ],
+    "full_hp": {
+      "batch_size": 64,
+      "dropout": 0.5,
+      "head_units": 256,
+      "weight_decay": 0.001,
+      "lr_head": 0.001,
+      "lr_ft": 0.0001,
+      "unfreeze_frac": 0.5,
+      "epochs_head": 10,
+      "epochs_ft": 30,
+      "patience_head": 4,
+      "patience": 6,
+      "rlrop_factor": 0.5,
+      "rlrop_patience": 3,
+      "min_lr": 1e-07,
+      "aug": "conservative",
+      "use_class_weights": true
+    }
+  }
+}

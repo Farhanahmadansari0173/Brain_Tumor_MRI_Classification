@@ -1,0 +1,16 @@
+{
+  "choice": "conservative",
+  "details": {
+    "none": {
+      "mean_gain_vs_conservative": 0.00027169493391987487,
+      "wins_of_4": 2,
+      "qualifies": false
+    },
+    "conservative_hflip": {
+      "mean_gain_vs_conservative": -0.008681095871683947,
+      "wins_of_4": 1,
+      "qualifies": false
+    }
+  },
+  "seed_noise_mean_abs_f1": 0.0168607317802897
+}
