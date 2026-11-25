@@ -6,7 +6,7 @@ A leakage-aware comparison of a custom four-block CNN and ImageNet-pretrained mo
 
 **Minor Project-I** | B.Tech (Artificial Intelligence), Third Year, Fifth Semester
 Interdisciplinary Centre for Artificial Intelligence, Zakir Husain College of Engineering and Technology (ZHCET), Aligarh Muslim University, Aligarh
-**Author:** Farhan Ahmad Ansari (Enrolment GQ0173, Faculty No. 24AIBEA131) | **Supervisor:** Professor Rashid Ali
+**Author:** Farhan Ahmad Ansari | **Supervisor:** Professor Rashid Ali
 
 > **Educational research prototype. It is not a clinically validated diagnostic system.**
 
