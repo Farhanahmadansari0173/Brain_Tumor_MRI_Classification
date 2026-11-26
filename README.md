@@ -10,7 +10,7 @@ Interdisciplinary Centre for Artificial Intelligence, Zakir Husain College of En
 
 > **Educational research prototype. It is not a clinically validated diagnostic system.**
 
-📄 **Full report:** [`report/Minor_Project_I_Report_Farhan_Ahmad_Ansari.pdf`](report/Minor_Project_I_Report_Farhan_Ahmad_Ansari.pdf)
+📄 **Full report:** [`report/Minor_Project_I_Report_Farhan_Ahmad_Ansari.pdf`](report/Minor_Project_I_Report_Farhan_Ahmad_Ansari.pdf) (43 pages; public copy, university enrolment and faculty numbers omitted)
 
 ---
 
